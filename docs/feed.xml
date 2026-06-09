@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:psc="http://podlove.org/simple-chapters" xmlns:podcast="https://podcastindex.org/namespace/1.0"><channel><title><![CDATA[Daily Thai]]></title><description><![CDATA[A short daily Thai lesson. A few new words, a few review words, real example sentences.]]></description><link>https://justame.github.io/thai-class</link><generator>Podcast for Node</generator><lastBuildDate>Tue, 09 Jun 2026 09:47:26 GMT</lastBuildDate><atom:link href="https://justame.github.io/thai-class/feed.xml" rel="self" type="application/rss+xml"/><author><![CDATA[Daily Thai]]></author><language><![CDATA[th]]></language><itunes:author>Daily Thai</itunes:author><itunes:summary>A short daily Thai lesson. A few new words, a few review words, real example sentences.</itunes:summary><itunes:owner><itunes:name>Daily Thai</itunes:name><itunes:email>justame@gmail.com</itunes:email></itunes:owner><itunes:explicit>false</itunes:explicit><itunes:category text="Education"><itunes:category text="Language Learning"/></itunes:category><itunes:image href="https://justame.github.io/thai-class/cover.jpg"/><item><title><![CDATA[Daily Thai #1 — สวัสดี, ขอบคุณ, ครับ]]></title><description><![CDATA[Today:
+
+New words:
+  สวัสดี = hello
+  ขอบคุณ = thank you
+  ครับ = polite particle (male)]]></description><link>https://justame.github.io/thai-class#ep-1</link><guid isPermaLink="false">daily-thai-1</guid><dc:creator><![CDATA[Daily Thai]]></dc:creator><pubDate>Tue, 09 Jun 2026 00:00:00 GMT</pubDate><enclosure url="https://github.com/justame/thai-class/releases/download/ep-1/daily-thai-1.mp3" length="888620" type="audio/mpeg"/><itunes:summary>Today:
+
+New words:
+  สวัสดี = hello
+  ขอบคุณ = thank you
+  ครับ = polite particle (male)</itunes:summary><itunes:explicit>false</itunes:explicit><itunes:duration>00:00:56</itunes:duration></item></channel></rss>

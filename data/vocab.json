@@ -5,10 +5,10 @@
     "english": "hello",
     "category": "greetings",
     "dateAdded": "2026-06-09",
-    "timesTaught": 0,
-    "lastSeen": null,
-    "intervalIndex": -1,
-    "nextReviewDate": null,
+    "timesTaught": 1,
+    "lastSeen": "2026-06-09",
+    "intervalIndex": 0,
+    "nextReviewDate": "2026-06-10",
     "exampleSentences": []
   },
   {
@@ -17,10 +17,10 @@
     "english": "thank you",
     "category": "greetings",
     "dateAdded": "2026-06-09",
-    "timesTaught": 0,
-    "lastSeen": null,
-    "intervalIndex": -1,
-    "nextReviewDate": null,
+    "timesTaught": 1,
+    "lastSeen": "2026-06-09",
+    "intervalIndex": 0,
+    "nextReviewDate": "2026-06-10",
     "exampleSentences": []
   },
   {
@@ -29,10 +29,10 @@
     "english": "polite particle (male)",
     "category": "grammar",
     "dateAdded": "2026-06-09",
-    "timesTaught": 0,
-    "lastSeen": null,
-    "intervalIndex": -1,
-    "nextReviewDate": null,
+    "timesTaught": 1,
+    "lastSeen": "2026-06-09",
+    "intervalIndex": 0,
+    "nextReviewDate": "2026-06-10",
     "exampleSentences": []
   },
   {
