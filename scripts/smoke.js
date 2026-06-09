@@ -1,6 +1,7 @@
 import 'dotenv/config';
 import { loadVocab } from '../src/vocab.js';
 import { selectLessonWords } from '../src/srs.js';
+import { addTranslations } from '../src/translate.js';
 import { generateScript } from '../src/script.js';
 import { makeAudio } from '../src/tts.js';
 import { today } from '../src/dates.js';
@@ -13,8 +14,15 @@ async function main() {
   if (!process.env.GOOGLE_APPLICATION_CREDENTIALS) throw new Error('Set GOOGLE_APPLICATION_CREDENTIALS in .env');
 
   const vocab = await loadVocab();
-  const { reviews, news, all } = selectLessonWords(vocab, today());
-  console.log(`Words: ${all.map((w) => w.thai).join(', ')}`);
+  const selected = selectLessonWords(vocab, today());
+  console.log(`Words: ${selected.all.map((w) => w.thai).join(', ')}`);
+
+  console.log('Translating new words (lazy)...');
+  const filled = await addTranslations(selected.all);
+  const byId = new Map(filled.map((w) => [w.id, w]));
+  const news = selected.news.map((w) => byId.get(w.id));
+  const reviews = selected.reviews.map((w) => byId.get(w.id));
+  for (const w of filled) console.log(`  ${w.thai} = ${w.english}`);
 
   console.log('Generating script (OpenAI)...');
   const chunks = await generateScript(news, reviews);

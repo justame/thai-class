@@ -18,9 +18,11 @@ const FIELD_ORDER = [
   'exampleSentences',
 ];
 
-const REQUIRED_FIELDS = ['id', 'thai', 'english'];
+// english is intentionally NOT required: words are seeded Thai-only and translated
+// lazily, only when a word is first used in a lesson (see translate.js + run.js).
+const REQUIRED_FIELDS = ['id', 'thai'];
 
-export function makeWord({ id, thai, english, category = 'general', dateAdded, exampleSentences = [] }) {
+export function makeWord({ id, thai, english = '', category = 'general', dateAdded, exampleSentences = [] }) {
   return {
     id,
     thai,

@@ -15,7 +15,13 @@ describe('makeWord', () => {
 
 describe('checkVocab', () => {
   it('should throw when a required field is missing', () => {
-    expect(() => checkVocab([{ id: 'w1', thai: 'ก' }])).toThrow(/english/);
+    expect(() => checkVocab([{ id: 'w1', english: 'a' }])).toThrow(/thai/);
+  });
+
+  it('should allow a word with no english yet (translated lazily)', () => {
+    const word = makeWord({ id: 'w1', thai: 'ก', dateAdded: '2026-06-09' });
+    expect(word.english).toBe('');
+    expect(() => checkVocab([word])).not.toThrow();
   });
 
   it('should throw on duplicate ids', () => {

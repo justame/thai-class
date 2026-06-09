@@ -2,6 +2,7 @@ import 'dotenv/config';
 import { existsSync } from 'node:fs';
 import { loadVocab, saveVocab, mergeWords } from './vocab.js';
 import { selectLessonWords, advanceWord } from './srs.js';
+import { addTranslations } from './translate.js';
 import { generateScript } from './script.js';
 import { makeAudio } from './tts.js';
 import { makeCover } from './cover.js';
@@ -40,25 +41,32 @@ async function main() {
   const episodes = await loadEpisodes();
 
   // 2. Pick today's words (deterministic code, no LLM).
-  const { reviews, news, all } = selectLessonWords(vocab, now);
-  if (all.length === 0) throw new Error('No words available — seed data/vocab.json first');
-  console.log(`Lesson words: ${news.length} new, ${reviews.length} review`);
+  const selected = selectLessonWords(vocab, now);
+  if (selected.all.length === 0) throw new Error('No words available — seed data/vocab.json first');
+  console.log(`Lesson words: ${selected.news.length} new, ${selected.reviews.length} review`);
 
-  // 3. Write the script (LLM).
+  // 3. Translate any chosen words that are still Thai-only (lazy, once per word).
+  const filled = await addTranslations(selected.all, { apiKey: env.openaiKey });
+  const byId = new Map(filled.map((w) => [w.id, w]));
+  const news = selected.news.map((w) => byId.get(w.id));
+  const reviews = selected.reviews.map((w) => byId.get(w.id));
+  const all = filled;
+
+  // 4. Write the script (LLM).
   const chunks = await generateScript(news, reviews, { apiKey: env.openaiKey });
 
-  // 4. Make the audio (Google TTS -> ffmpeg MP3 128k).
+  // 5. Make the audio (Google TTS -> ffmpeg MP3 128k).
   const { mp3Path, durationSeconds } = await makeAudio(chunks);
 
-  // 5. Make sure the show cover exists (one-time; committed after first run).
+  // 6. Make sure the show cover exists (one-time; committed after first run).
   if (!existsSync(PATHS.cover)) await makeCover();
 
-  // 6. Build the episode record.
+  // 7. Build the episode record.
   const number = nextEpisodeNumber(lastEpisodeNumber(episodes));
   const title = buildTitle(all, number);
   const description = buildDescription(reviews, news);
 
-  // 7. PUBLISH: upload the MP3 to Releases (the outside-world step). Must succeed
+  // 8. PUBLISH: upload the MP3 to Releases (the outside-world step). Must succeed
   //    before any local state changes.
   const { audioUrl, fileSizeBytes } = await uploadAudio(mp3Path, number, {
     token: env.githubToken,
@@ -66,12 +74,13 @@ async function main() {
   });
   console.log(`Uploaded episode #${number}: ${audioUrl}`);
 
-  // 8. Append the episode and rebuild the feed.
+  // 9. Append the episode and rebuild the feed.
   const newEpisodes = [...episodes, makeEpisode({ number, title, description, pubDate: now, audioUrl, durationSeconds, fileSizeBytes })];
   await writeFeed(newEpisodes, { siteBaseUrl: env.siteBaseUrl, ownerEmail: env.ownerEmail });
 
-  // 9. STATE LAST: advance the taught words and save. If the run reached here,
-  //    publishing already succeeded, so it is safe to record progress.
+  // 10. STATE LAST: advance the taught words (with any new translations) and save.
+  //     If the run reached here, publishing already succeeded, so it is safe to
+  //     record progress.
   const advanced = all.map((w) => advanceWord(w, now));
   await saveVocab(mergeWords(vocab, advanced));
   await saveEpisodes(newEpisodes);
