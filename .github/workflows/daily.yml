@@ -1,0 +1,59 @@
+name: Daily Thai lesson
+
+# 09:00 Thailand (ICT, UTC+7) = 02:00 UTC. Cron is UTC-only and best-effort
+# (GitHub may delay it a few minutes); fine for a daily lesson.
+on:
+  schedule:
+    - cron: '0 2 * * *'
+  workflow_dispatch: {}
+
+# Needed to create Releases (audio) and push the committed state back.
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-thai
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+
+      - run: npm ci
+
+      # Google TTS reads credentials from a file path. Write the secret JSON to disk.
+      - name: Write Google credentials
+        run: echo "$GOOGLE_TTS_KEY" > "$RUNNER_TEMP/google-tts-key.json"
+        env:
+          GOOGLE_TTS_KEY: ${{ secrets.GOOGLE_TTS_KEY }}
+
+      - name: Generate and publish episode
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          GOOGLE_APPLICATION_CREDENTIALS: ${{ runner.temp }}/google-tts-key.json
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPO: ${{ github.repository }}
+          SITE_BASE_URL: ${{ vars.SITE_BASE_URL }}
+          PODCAST_OWNER_EMAIL: ${{ vars.PODCAST_OWNER_EMAIL }}
+        run: node src/run.js
+
+      # Runs only if the previous step succeeded (state-last). Commits the advanced
+      # vocab, the episode log, and the rebuilt feed/cover for GitHub Pages.
+      - name: Commit updated state
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/ docs/
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Daily Thai episode $(date -u +%Y-%m-%d)"
+            git push
+          fi

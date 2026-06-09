@@ -1,0 +1,25 @@
+{
+  "name": "thai-class",
+  "version": "1.0.0",
+  "description": "Daily Thai learning podcast generator, auto-published to Spotify via RSS",
+  "type": "module",
+  "scripts": {
+    "seed": "node scripts/seed.js",
+    "smoke": "node scripts/smoke.js",
+    "start": "node src/run.js",
+    "cover": "node src/cover.js",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@google-cloud/text-to-speech": "^5.3.0",
+    "@octokit/rest": "^21.0.0",
+    "dotenv": "^16.4.0",
+    "ffmpeg-static": "^5.3.0",
+    "openai": "^4.67.0",
+    "podcast": "^2.0.1",
+    "sharp": "^0.33.0"
+  },
+  "devDependencies": {
+    "vitest": "^2.1.9"
+  }
+}

@@ -1,0 +1,11 @@
+node_modules/
+.env
+# Service-account key must never be committed. Keys live in GitHub Actions Secrets.
+*google*key*.json
+gha-creds-*.json
+secrets/
+# Audio is uploaded to GitHub Releases, not tracked in git (avoids history bloat).
+*.mp3
+*.wav
+build/
+tmp/
