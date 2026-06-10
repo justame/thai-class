@@ -7,5 +7,14 @@
     "audioUrl": "https://github.com/justame/thai-class/releases/download/ep-1/daily-thai-1.mp3",
     "durationSeconds": 55.51,
     "fileSizeBytes": 888620
+  },
+  {
+    "number": 2,
+    "title": "Daily Thai #2 — โอเค, อะไร, และ, สวัสดี, ขอบคุณ",
+    "description": "Today:\n\nNew words:\n  โอเค = okay\n  อะไร = what\n  และ = and\n\nReview words:\n  สวัสดี = hello\n  ขอบคุณ = thank you",
+    "pubDate": "2026-06-10",
+    "audioUrl": "https://github.com/justame/thai-class/releases/download/ep-2/daily-thai-2.mp3",
+    "durationSeconds": 83.21000000000001,
+    "fileSizeBytes": 1331756
   }
 ]
