@@ -7894,5 +7894,77 @@
     "intervalIndex": -1,
     "nextReviewDate": null,
     "exampleSentences": []
+  },
+  {
+    "id": "w00000_โอเค",
+    "thai": "โอเค",
+    "english": "okay",
+    "category": "frequency",
+    "dateAdded": "2026-06-09",
+    "timesTaught": 1,
+    "lastSeen": "2026-06-10",
+    "intervalIndex": 0,
+    "nextReviewDate": "2026-06-11",
+    "exampleSentences": []
+  },
+  {
+    "id": "w00001_อะไร",
+    "thai": "อะไร",
+    "english": "what",
+    "category": "frequency",
+    "dateAdded": "2026-06-09",
+    "timesTaught": 1,
+    "lastSeen": "2026-06-10",
+    "intervalIndex": 0,
+    "nextReviewDate": "2026-06-11",
+    "exampleSentences": []
+  },
+  {
+    "id": "w00002_และ",
+    "thai": "และ",
+    "english": "and",
+    "category": "frequency",
+    "dateAdded": "2026-06-09",
+    "timesTaught": 1,
+    "lastSeen": "2026-06-10",
+    "intervalIndex": 0,
+    "nextReviewDate": "2026-06-11",
+    "exampleSentences": []
+  },
+  {
+    "id": "w00000_สวัสดี",
+    "thai": "สวัสดี",
+    "english": "hello",
+    "category": "greetings",
+    "dateAdded": "2026-06-09",
+    "timesTaught": 2,
+    "lastSeen": "2026-06-10",
+    "intervalIndex": 1,
+    "nextReviewDate": "2026-06-13",
+    "exampleSentences": []
+  },
+  {
+    "id": "w00001_ขอบคุณ",
+    "thai": "ขอบคุณ",
+    "english": "thank you",
+    "category": "greetings",
+    "dateAdded": "2026-06-09",
+    "timesTaught": 2,
+    "lastSeen": "2026-06-10",
+    "intervalIndex": 1,
+    "nextReviewDate": "2026-06-13",
+    "exampleSentences": []
+  },
+  {
+    "id": "w00002_ครับ",
+    "thai": "ครับ",
+    "english": "polite particle (male)",
+    "category": "grammar",
+    "dateAdded": "2026-06-09",
+    "timesTaught": 1,
+    "lastSeen": "2026-06-09",
+    "intervalIndex": 0,
+    "nextReviewDate": "2026-06-10",
+    "exampleSentences": []
   }
 ]
