@@ -5,6 +5,8 @@
   "type": "module",
   "scripts": {
     "seed": "node scripts/seed.js",
+    "text": "node scripts/text.js",
+    "audio": "node scripts/audio.js",
     "smoke": "node scripts/smoke.js",
     "start": "node src/run.js",
     "cover": "node src/cover.js",

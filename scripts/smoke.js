@@ -2,6 +2,7 @@ import 'dotenv/config';
 import { loadVocab } from '../src/vocab.js';
 import { selectLessonWords } from '../src/srs.js';
 import { addTranslations } from '../src/translate.js';
+import { loadLessonPlan, chooseLessonType } from '../src/lessons.js';
 import { generateScript } from '../src/script.js';
 import { makeAudio } from '../src/tts.js';
 import { today } from '../src/dates.js';
@@ -24,10 +25,11 @@ async function main() {
   const reviews = selected.reviews.map((w) => byId.get(w.id));
   for (const w of filled) console.log(`  ${w.thai} = ${w.english}`);
 
-  console.log('Generating script (OpenAI)...');
-  const chunks = await generateScript(news, reviews);
+  const lessonType = chooseLessonType(await loadLessonPlan(), 1);
+  console.log(`Generating script (OpenAI, lesson: ${lessonType})...`);
+  const chunks = await generateScript(news, reviews, { lessonType });
   console.log('\n--- SCRIPT ---');
-  for (const c of chunks) console.log(`[${c.lang}/${c.role}] ${c.text}`);
+  for (const c of chunks) console.log(`[${c.speaker}/${c.lang} ⏸${c.pauseAfter}] ${c.text}`);
 
   console.log('\nMaking audio (Google TTS -> MP3)...');
   const { mp3Path, durationSeconds } = await makeAudio(chunks);

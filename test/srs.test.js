@@ -8,6 +8,7 @@ import {
   selectLessonWords,
   NEW_INDEX,
 } from '../src/srs.js';
+import { REVIEWS_PER_LESSON, NEW_PER_LESSON } from '../src/config.js';
 
 const TODAY = '2026-06-09';
 
@@ -106,25 +107,28 @@ describe('advanceWord', () => {
 });
 
 describe('selectLessonWords', () => {
-  it('should pick capped reviews first then new words', () => {
+  it('should cap reviews and new words and pick most-overdue reviews first', () => {
     const words = [
       word({ id: 'n1' }),
       word({ id: 'n2' }),
       word({ id: 'n3' }),
-      word({ id: 'n4' }),
       word({ id: 'r1', intervalIndex: 0, nextReviewDate: '2026-06-01' }),
       word({ id: 'r2', intervalIndex: 0, nextReviewDate: '2026-06-02' }),
       word({ id: 'r3', intervalIndex: 0, nextReviewDate: '2026-06-03' }),
     ];
     const { reviews, news } = selectLessonWords(words, TODAY);
-    expect(reviews.map((w) => w.id)).toEqual(['r1', 'r2']);
-    expect(news.map((w) => w.id)).toEqual(['n1', 'n2', 'n3']);
+    expect(reviews).toHaveLength(REVIEWS_PER_LESSON);
+    expect(news).toHaveLength(NEW_PER_LESSON);
+    // most overdue review and first new word come first
+    expect(reviews[0].id).toBe('r1');
+    expect(news[0].id).toBe('n1');
   });
 
-  it('should fall back to all new words when nothing is due', () => {
+  it('should return no reviews when nothing is due', () => {
     const words = [word({ id: 'n1' }), word({ id: 'n2' })];
     const { reviews, news } = selectLessonWords(words, TODAY);
     expect(reviews).toEqual([]);
-    expect(news.map((w) => w.id)).toEqual(['n1', 'n2']);
+    expect(news).toHaveLength(NEW_PER_LESSON);
+    expect(news[0].id).toBe('n1');
   });
 });

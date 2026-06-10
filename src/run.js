@@ -3,7 +3,9 @@ import { existsSync } from 'node:fs';
 import { loadVocab, saveVocab, mergeWords } from './vocab.js';
 import { selectLessonWords, advanceWord } from './srs.js';
 import { addTranslations } from './translate.js';
+import { loadLessonPlan, chooseLessonType } from './lessons.js';
 import { generateScript } from './script.js';
+import { buildTranscript, writeTranscript, hasTranscript, readTranscriptChunks } from './transcript.js';
 import { makeAudio } from './tts.js';
 import { makeCover } from './cover.js';
 import { uploadAudio } from './publish.js';
@@ -39,6 +41,11 @@ async function main() {
   // 1. Load state.
   const vocab = await loadVocab();
   const episodes = await loadEpisodes();
+  const number = nextEpisodeNumber(lastEpisodeNumber(episodes));
+
+  // Choose the lesson type (skill) for this episode from data/lesson-plan.json.
+  const lessonType = chooseLessonType(await loadLessonPlan(), number);
+  console.log(`Episode #${number}, lesson: ${lessonType}`);
 
   // 2. Pick today's words (deterministic code, no LLM).
   const selected = selectLessonWords(vocab, now);
@@ -52,18 +59,26 @@ async function main() {
   const reviews = selected.reviews.map((w) => byId.get(w.id));
   const all = filled;
 
-  // 4. Write the script (LLM).
-  const chunks = await generateScript(news, reviews, { apiKey: env.openaiKey });
+  // 4. Get the lesson text. If an (edited) transcript already exists for this episode,
+  //    voice that exact text — honoring edits. Otherwise generate it and save it.
+  const title = buildTitle(all, number);
+  let chunks;
+  if (hasTranscript(number)) {
+    chunks = await readTranscriptChunks(number);
+    console.log(`Using existing transcript for episode #${number} (${chunks.length} lines)`);
+  } else {
+    chunks = await generateScript(news, reviews, { apiKey: env.openaiKey, lessonType });
+    const transcript = buildTranscript(chunks, { episodeNumber: number, title, lessonType, words: all, pubDate: now });
+    await writeTranscript(number, transcript);
+  }
 
-  // 5. Make the audio (Google TTS -> ffmpeg MP3 128k).
+  // 6. Make the audio (Google TTS -> ffmpeg MP3 128k).
   const { mp3Path, durationSeconds } = await makeAudio(chunks);
 
-  // 6. Make sure the show cover exists (one-time; committed after first run).
+  // 7. Make sure the show cover exists (one-time; committed after first run).
   if (!existsSync(PATHS.cover)) await makeCover();
 
-  // 7. Build the episode record.
-  const number = nextEpisodeNumber(lastEpisodeNumber(episodes));
-  const title = buildTitle(all, number);
+  // 8. Build the episode record.
   const description = buildDescription(reviews, news);
 
   // 8. PUBLISH: upload the MP3 to Releases (the outside-world step). Must succeed

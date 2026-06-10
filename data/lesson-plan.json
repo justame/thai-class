@@ -1,0 +1,5 @@
+{
+  "mode": "fixed",
+  "type": "classroom",
+  "rotation": ["classroom", "micro", "conversation", "story"]
+}
