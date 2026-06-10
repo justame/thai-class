@@ -7,5 +7,7 @@ secrets/
 # Audio is uploaded to GitHub Releases, not tracked in git (avoids history bloat).
 *.mp3
 *.wav
+# but the cue sound assets must be committed (CI needs them)
+!assets/cues/*.wav
 build/
 tmp/

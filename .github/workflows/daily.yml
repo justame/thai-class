@@ -37,6 +37,9 @@ jobs:
       - name: Generate and publish episode
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          # Optional: if set, lessons use ElevenLabs; otherwise (or on error) Google is used.
+          TTS_PROVIDER: ${{ vars.TTS_PROVIDER || 'google' }}
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
           GOOGLE_APPLICATION_CREDENTIALS: ${{ runner.temp }}/google-tts-key.json
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPO: ${{ github.repository }}
