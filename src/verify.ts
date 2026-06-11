@@ -52,7 +52,11 @@ Be CONSERVATIVE. Only fix clear errors; do not rewrite working lines.
 Fix only this:
 - Teacher and student2 Thai (lang "th") that is genuinely WRONG or nonsense — make it
   natural and correct. Do not "improve" already-correct Thai.
-Do NOT change politeness particles (ครับ/ค่ะ/คะ) — gender is handled separately.
+- Politeness particles must match the gender the line is spoken AS, judged from the
+  surrounding English. A male voice — OR the teacher MODELING what a male should say — ends
+  with ครับ; a female voice ends with ค่ะ for a statement, คะ for a question. CRITICAL: a
+  female teacher demonstrating a male line still uses ครับ; never "correct" that to ค่ะ. Only
+  change a particle when it clearly contradicts the gender the line is spoken as.
 
 Do NOT touch the teaching moment:
 - student1 is a beginner who makes an intentional mistake that the teacher then corrects.

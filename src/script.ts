@@ -4,7 +4,6 @@ import { writeScene } from './write-scene.js';
 import { directScene } from './direct-scene.js';
 import { parseScene } from './format-scene.js';
 import { reviewThai } from './verify.js';
-import { fixGenderParticles } from './particles.js';
 import { checkNoMixedScript } from './script-check.js';
 import { splitMixedScriptLines } from './split-script.js';
 import type { Chunk, Word } from './types.js';
@@ -44,14 +43,15 @@ export async function generateScript(
   }
   const chunks = checkChunks(parseScene(scene));
 
-  // Gender particles are fixed deterministically by speaker (not by the LLM).
-  const gendered = fixGenderParticles(chunks);
-
-  // Native-Thai correctness pass before voicing (student1's intentional mistake is preserved).
-  if (!verify) return checkNoMixedScript(splitMixedScriptLines(gendered));
-  const { chunks: reviewed, issues } = await reviewThai(gendered, { apiKey });
+  // Gender particles (ครับ/ค่ะ/คะ) are NOT fixed by a deterministic rule: whether a line
+  // ends ครับ or ค่ะ depends on who it is spoken AS, not who speaks it — a female teacher
+  // modeling a male line correctly uses ครับ. A blind speaker-gender rewrite taught the
+  // OPPOSITE (ep-5: "male = ค่ะ"). Particle correctness is left to the model and verified
+  // by reviewThai, which has the surrounding English context to judge it.
+  if (!verify) return checkNoMixedScript(splitMixedScriptLines(chunks));
+  const { chunks: reviewed, issues } = await reviewThai(chunks, { apiKey });
   if (issues.length) console.log(`Thai review fixed: ${issues.join('; ')}`);
-  const clean = splitMixedScriptLines(fixGenderParticles(checkChunks(reviewed)));
+  const clean = splitMixedScriptLines(checkChunks(reviewed));
   return checkNoMixedScript(clean);
 }
 
