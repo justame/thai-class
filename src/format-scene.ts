@@ -14,6 +14,10 @@ import type { Chunk, Speaker } from './types.js';
 
 const CUE_PAUSE_SECONDS = 0.3;
 
+// Short beat between the pieces of ONE spoken line (e.g. an English fragment then a Thai
+// word). Distinct from MIN_PAUSE_SECONDS, which is the clamp floor — they may differ later.
+const INTRA_LINE_PAUSE_SECONDS = 0.2;
+
 const SPEAKER_BY_LABEL: Record<string, Speaker> = {
   TEACHER: 'teacher',
   STUDENT1: 'student1',
@@ -22,7 +26,7 @@ const SPEAKER_BY_LABEL: Record<string, Speaker> = {
 
 const CUE_ROW = /^\[CUE:\s*(\w+)\s*\]$/i;
 const PERSON_ROW = /^(\w+)\s*(?:\([^)]*\))?\s*:\s*(.*)$/;
-const WAIT_HINT = /\s*\[wait\s+([\d.]+)s?\]\s*$/i;
+const WAIT_HINT = /\s*\[wait\s+(\d+(?:\.\d+)?)s?\]\s*$/i;
 
 function clampPause(seconds: number): number {
   return Math.min(MAX_PAUSE_SECONDS, Math.max(MIN_PAUSE_SECONDS, seconds));
@@ -36,7 +40,9 @@ function isSkippable(line: string): boolean {
 function takeWait(text: string): { text: string; wait: number | null } {
   const m = text.match(WAIT_HINT);
   if (!m) return { text: text.trim(), wait: null };
-  return { text: text.replace(WAIT_HINT, '').trim(), wait: Number(m[1]) };
+  const wait = Number(m[1]);
+  if (!Number.isFinite(wait)) return { text: text.trim(), wait: null };
+  return { text: text.replace(WAIT_HINT, '').trim(), wait };
 }
 
 function cueChunk(name: string): Chunk {
@@ -56,7 +62,7 @@ function personChunks(speaker: Speaker, rawText: string): Chunk[] {
     speaker,
     lang: piece.lang,
     text: piece.text,
-    pauseAfter: i === pieces.length - 1 ? endPause : MIN_PAUSE_SECONDS,
+    pauseAfter: i === pieces.length - 1 ? endPause : INTRA_LINE_PAUSE_SECONDS,
   }));
 }
 

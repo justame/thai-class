@@ -58,4 +58,10 @@ describe('parseScene', () => {
   it('throws on a person row with empty text', () => {
     expect(() => parseScene('TEACHER (warm):   ')).toThrow();
   });
+
+  it('never produces a NaN pause from a malformed wait hint', () => {
+    const chunks = parseScene('TEACHER: Hi there. [wait .]');
+    const last = chunks[chunks.length - 1].pauseAfter;
+    expect(Number.isFinite(last)).toBe(true);
+  });
 });
