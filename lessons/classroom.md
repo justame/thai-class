@@ -29,6 +29,11 @@ Everyone has a name and uses it. The teacher introduces herself and both student
 start, and speakers address each other by name. (Speaker IDs in the script stay
 "teacher" / "student1" / "student2" — the names are only spoken.)
 
+Write names in English when they sit inside an English sentence — "Mike", "Sarah",
+"Kru Nan" — never switch to Thai script for a name mid-sentence (that chops the line into
+fragments and the Thai voice mispronounces it). The Thai voice is for Thai the listener is
+meant to LEARN, not for names mentioned in passing.
+
 - "teacher" — ครูแนน (Kru Nan), FEMALE. Female speech: ค่ะ / คะ, ฉัน or ครู. Warm, upbeat,
   encouraging, fun — human, not robotic and not childish. Give REAL, varied praise and
   feedback, not the same word each time: mix things like "เยี่ยมเลยค่ะ!", "เก่งมากค่ะ",
@@ -84,9 +89,11 @@ each appear once; "try" and "correct" can appear a couple of times at natural mo
 
 1. cue "start".
 2. Context + why: in English, set an everyday Bangkok scene and what they'll be able to say.
-   The teacher introduces herself and the students by name.
-3. Roadmap: in 1-2 English sentences the teacher previews the lesson — first the new word,
-   then practice with Mike and Sarah, then the listener's turn, then a recap.
+   The teacher introduces herself and the students by name. Keep this SHORT — at most 2-3
+   short sentences. Do not over-narrate the scene; the listener should hear the new Thai word
+   within the first ~15 seconds, not after a long intro.
+3. Roadmap: ONE short English sentence previewing the lesson (new word → practice → your turn
+   → recap). Do not pad it.
 4. cue "new_word", then the main word in Thai, its English meaning, and "listen / repeat" (pause).
 5. A first simple Thai example, then its English translation.
 6. cue "try". student1 hesitates (a short English "Hmm… let me think" line with a long pause),

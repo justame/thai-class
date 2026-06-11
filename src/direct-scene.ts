@@ -20,6 +20,9 @@ Fix delivery against this rubric:
 - Students hesitate in their OWN words, never the canned "Hmm, let me think".
 - Vary sentence length and rhythm — do not write every line the same length.
 - Cut dead filler lines; every line teaches, reacts, or moves the scene.
+- Keep it TIGHT. Do not pad or lengthen — if anything, shorten. The opening must be brief
+  (the new Thai word should arrive within the first few lines), and names inside English
+  sentences stay in English ("Mike", not Thai script), never chopping a sentence.
 
 Hard rules: do NOT change the Thai content words being taught, do NOT fix STUDENT1's
 intentional mistake, do NOT add new Thai vocabulary, do NOT switch to JSON. Return ONLY the
