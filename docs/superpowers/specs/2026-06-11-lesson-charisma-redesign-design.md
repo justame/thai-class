@@ -39,7 +39,7 @@ Replaces the single `gpt-4o + strict-schema` generate call. `generateScript()`
 `scripts/text.ts` is untouched.
 
 ```
-writeScene → directScene (×reviewsPerLesson) → formatScene
+writeScene → directScene (×directorPasses) → formatScene
   → fixGenderParticles → reviewThai → splitMixedScriptLines → checkNoMixedScript → save
 ```
 
@@ -51,14 +51,21 @@ writeScene → directScene (×reviewsPerLesson) → formatScene
 
 ### Stage 2 — Director (`src/direct-scene.ts`)
 - Critic pass. Reads the screenplay, grades it on the rubric, rewrites flat lines.
-- Loops `reviewsPerLesson` times (config, currently 1).
+- Loops `directorPasses` times (NEW config key, default 1 — distinct from `reviewsPerLesson`,
+  which counts review words, not critic passes).
 - Mirrors how `reviewThai` ([verify.ts](../../../src/verify.ts)) works.
 
 ### Stage 3 — Formatter (`src/format-scene.ts`)
-- Converts final screenplay → chunks. **The only place the strict JSON schema lives.**
-- Splits Thai into `th` lines; sets `pauseAfter` by line role (table below).
-- Must NOT pre-shred sentences into 0.2s-glued fragments (the ep-4 disease). English sentence
-  stays whole; only a Thai word that must be *heard* gets its own `th` line.
+- Converts final screenplay → chunks. **Deterministic — no LLM call, pure function, fully
+  unit-tested.**
+- Parses each row (`SPEAKER (mood): text`, `[CUE: name]`), strips the mood tag, splits Thai
+  out of mixed text into `th` pieces by reusing `splitText` ([split-script.ts](../../../src/split-script.ts)).
+- Sets `pauseAfter` from an optional trailing `[wait Ns]` hint on the screenplay row (set by
+  the Writer/Director, who know the beat); the wait lands on the last piece of the row, other
+  pieces of the same row get a small 0.2s intra-line pause. No hint → default by lang. All
+  clamped to [0.2, 6.0].
+- An English sentence with no Thai stays one whole chunk — no 0.2s-glued fragments (the ep-4
+  disease).
 
 ### Kept unchanged (post-format)
 `fixGenderParticles` → `reviewThai` (Thai correctness) → `splitMixedScriptLines` →
@@ -75,10 +82,13 @@ STUDENT1 (hesitant): Hmm... let me think...
 STUDENT1 (unsure): ผม อาหาร ต้องการ ครับ
 TEACHER (encouraging): เกือบแล้ว! Almost. Listen: ผมต้องการอาหาร ครับ
 [CUE: new_word]
+TEACHER: How do you say "I want food"? [wait 5s]
 ```
 
 - Thai stays in Thai script inline.
 - Mood in `()` is optional, guides the Writer's delivery, **dropped before TTS.**
+- Optional trailing `[wait Ns]` sets the pause after that row (used for recall beats and
+  repeat-after-me). No hint → Formatter uses the lang default.
 - Cues as `[CUE: name]` where name ∈ start/new_word/try/correct/practice/recap.
 - Also more readable for `feedback.md` notes than the chunk format.
 
@@ -99,14 +109,16 @@ The rubric lives in the Director prompt. The same rules are also seeded into
 
 ## Pause plan
 
-Formatter sets `pauseAfter` by line role, not a flat 0.7:
+The Writer/Director set pauses via `[wait Ns]` hints on screenplay rows, guided by the rubric
+(the creative stage knows which line is the recall beat). The Formatter reads the hint; with no
+hint it uses the lang default. Target values the rubric asks for:
 
 | Line role | Pause | Why |
 |---|---|---|
 | Recall question ("How do you say…?") | 5–6s | learner produces a full sentence; 3s too short |
 | Thai word/sentence to repeat | 1.5–2s | room to echo |
-| Normal speech | 0.5–0.9s | natural breath, varied |
-| Mid-sentence beat | 0.2–0.3s | the only place tiny pauses belong |
+| Normal speech | 0.5–0.9s (lang default) | natural breath |
+| Mid-sentence beat (extra pieces of one row) | 0.2s | the only place tiny pauses belong |
 | After a cue | 0.3s | as today |
 
 **Config change:** raise `maxPauseSeconds` 3.0 → **6.0** ([config.jsonc:13](../../../config.jsonc)) so the
@@ -122,8 +134,7 @@ TDD — test first. (Per testing rules: mock only at the network boundary.)
   line rejected.
 - **Pause clamp** — value >6 clamps to 6, <0.2 clamps to 0.2 (lock the new ceiling).
 - **`write-scene` / `direct-scene`** — LLM calls mocked at the boundary. Assert the prompt
-  carries the rubric and the output parses. Not asserting "is it warm" — charisma is not
-  unit-testable.
+  carries the rubric. Not asserting "is it warm" — charisma is not unit-testable.
 
 **Real quality gate = the ear:** `npm run text -- --word=อาหาร` → read transcript →
 `npm run audio` → listen. Same word as ep-4, so old vs new can be A/B compared.
