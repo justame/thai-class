@@ -5,7 +5,7 @@ import { selectLessonWords, advanceWord } from './srs.js';
 import { addTranslations } from './translate.js';
 import { loadLessonPlan, chooseLessonType } from './lessons.js';
 import { generateScript } from './script.js';
-import { buildTranscript, writeTranscript, hasTranscript, readTranscriptChunks } from './transcript.js';
+import { buildTranscript, writeTranscript, hasTranscript, readTranscriptChunks, audioPath, refreshHtml } from './transcript.js';
 import { makeAudio } from './tts.js';
 import { makeCover } from './cover.js';
 import { uploadAudio } from './publish.js';
@@ -74,8 +74,10 @@ async function main(): Promise<void> {
     await writeTranscript(number, transcript);
   }
 
-  // 6. Make the audio (Google TTS -> ffmpeg MP3 128k).
-  const { mp3Path, durationSeconds } = await makeAudio(chunks);
+  // 6. Make the audio (Google TTS -> ffmpeg MP3 128k) into the episode folder, and refresh
+  //    the readable HTML page from the final transcript.
+  const { mp3Path, durationSeconds } = await makeAudio(chunks, { outPath: audioPath(number) });
+  await refreshHtml(number);
 
   // 7. Make sure the show cover exists (one-time; committed after first run).
   if (!existsSync(PATHS.cover)) await makeCover();

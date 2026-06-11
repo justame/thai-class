@@ -1,7 +1,7 @@
 import { spawn } from 'node:child_process';
 import { writeFile, mkdir, rm } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
-import { join } from 'node:path';
+import { join, dirname } from 'node:path';
 import ffmpegPath from 'ffmpeg-static';
 import { DEFAULT_PAUSE_SECONDS, MIN_PAUSE_SECONDS, MAX_PAUSE_SECONDS, PATHS, MIN_SECONDS, MAX_SECONDS, TTS_PROVIDER } from './config.js';
 import * as google from './tts-google.js';
@@ -131,6 +131,7 @@ export async function makeAudio(chunks: Chunk[], { outPath }: MakeAudioOptions =
   checkNoMixedScript(chunks);
   await mkdir(PATHS.build, { recursive: true });
   const mp3Path = outPath ?? join(PATHS.build, 'lesson.mp3');
+  await mkdir(dirname(mp3Path), { recursive: true });
 
   const segmentPaths: string[] = [];
   const pauses: number[] = [];

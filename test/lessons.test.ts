@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { parseFrontmatter, chooseLessonType, buildLessonPrompt, formatWords } from '../src/lessons.js';
+import { parseFrontmatter, chooseLessonType, buildLessonPrompt, formatWords, formatFeedbackRules } from '../src/lessons.js';
 import type { Word } from '../src/types.js';
 
 describe('parseFrontmatter', () => {
@@ -42,6 +42,18 @@ describe('formatWords', () => {
 
   it('should return (none) for an empty list', () => {
     expect(formatWords([])).toBe('(none)');
+  });
+});
+
+describe('formatFeedbackRules', () => {
+  it('should return an empty string when there are no rules', () => {
+    expect(formatFeedbackRules('   \n  ')).toBe('');
+  });
+
+  it('should wrap rules in a labeled block the model can follow', () => {
+    const out = formatFeedbackRules('- Keep English to one sentence');
+    expect(out).toContain('FEEDBACK RULES');
+    expect(out).toContain('- Keep English to one sentence');
   });
 });
 

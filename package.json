@@ -9,6 +9,8 @@
     "seed": "tsc && node dist/scripts/seed.js",
     "tag": "tsc && node dist/scripts/tag-obvious.js",
     "audit": "tsc && node dist/scripts/audit.js",
+    "menu": "tsc && node dist/scripts/menu.js",
+    "lesson": "tsc && node dist/scripts/lesson.js",
     "text": "tsc && node dist/scripts/text.js",
     "audio": "tsc && node dist/scripts/audio.js",
     "smoke": "tsc && node dist/scripts/smoke.js",

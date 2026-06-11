@@ -13,6 +13,7 @@ import type { LessonPlan, Word } from './types.js';
 
 const LESSONS_DIR = join(PATHS.root, 'lessons');
 const PLAN_PATH = join(PATHS.root, 'data', 'lesson-plan.json');
+const FEEDBACK_RULES_PATH = join(LESSONS_DIR, 'feedback-rules.md');
 const DEFAULT_TYPE = 'micro';
 
 export interface Frontmatter {
@@ -43,9 +44,33 @@ function formatWords(words: Word[]): string {
     .join('\n');
 }
 
+// Wrap the distilled feedback rules in a labeled block so the model treats them as hard
+// constraints. Empty rules produce nothing, so the prompt is unchanged until you add some.
+export function formatFeedbackRules(rules: string): string {
+  const trimmed = rules.trim();
+  if (!trimmed) return '';
+  return `\nFEEDBACK RULES — these come from past lessons that felt off. Obey them:\n${trimmed}\n`;
+}
+
+// The rules file is hand-grown: when a lesson feels wrong, the recurring fix is added here
+// so every future lesson obeys it. Missing file = no rules yet.
+async function loadFeedbackRules(): Promise<string> {
+  if (!existsSync(FEEDBACK_RULES_PATH)) return '';
+  const { body } = parseFrontmatter(await readFile(FEEDBACK_RULES_PATH, 'utf8'));
+  // Strip HTML comments (the how-to-use notes) so a file holding only comments counts as
+  // empty — no rules are injected until a real one is written.
+  const rules = body.replace(/<!--[\s\S]*?-->/g, '');
+  return formatFeedbackRules(rules);
+}
+
+// feedback-rules.md is shared guidance, not a teachable lesson type, so it is excluded.
+const NON_LESSON_FILES = new Set(['feedback-rules.md']);
+
 export async function listLessonTypes(): Promise<string[]> {
   const files = await readdir(LESSONS_DIR);
-  return files.filter((f) => f.endsWith('.md')).map((f) => f.replace(/\.md$/, ''));
+  return files
+    .filter((f) => f.endsWith('.md') && !NON_LESSON_FILES.has(f))
+    .map((f) => f.replace(/\.md$/, ''));
 }
 
 export async function loadLessonPlan(): Promise<LessonPlan> {
@@ -75,11 +100,14 @@ export async function buildLessonPrompt(
     .replace('{{NEW_WORDS}}', formatWords(newWords))
     .replace('{{REVIEW_WORDS}}', formatWords(reviewWords));
 
+  // Distilled feedback rules apply to every lesson type, so they go right after the body.
+  const feedbackRules = await loadFeedbackRules();
+
   // Append the fixed output contract plus an explicit restatement of the real words.
   // The restatement comes LAST (most salient) and guards against the model copying any
   // example words that appear inside the lesson instructions.
   return `${filled}
-
+${feedbackRules}
 TODAY'S ACTUAL WORDS — teach ONLY these:
 - NEW: ${newWords.map((w) => `${w.thai} (${w.english})`).join(', ') || '(none)'}
 - REVIEW: ${reviewWords.map((w) => `${w.thai} (${w.english})`).join(', ') || '(none)'}

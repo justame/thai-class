@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { buildTranscript, parseTranscript, readableView } from '../src/transcript.js';
+import { buildTranscript, parseTranscript, readableView, buildHtml, transcriptPath, audioPath, htmlPath, feedbackPath } from '../src/transcript.js';
 import { ENGLISH_SPEAKING_RATE } from '../src/config.js';
 import type { BuildTranscriptOptions } from '../src/transcript.js';
 import type { Chunk, Word } from '../src/types.js';
@@ -44,6 +44,60 @@ describe('buildTranscript + parseTranscript', () => {
   it('should fall back to the language default speed when rate is omitted', () => {
     const parsed = parseTranscript('[teacher|en|0.7] hello');
     expect(parsed[0].rate).toBe(ENGLISH_SPEAKING_RATE);
+  });
+});
+
+describe('episode paths', () => {
+  it('should put the transcript in the episode folder', () => {
+    expect(transcriptPath(3).endsWith('episodes/ep-3/transcript.md')).toBe(true);
+  });
+
+  it('should put the audio in the same episode folder', () => {
+    expect(audioPath(3).endsWith('episodes/ep-3/lesson.mp3')).toBe(true);
+  });
+
+  it('should put the html in the same episode folder', () => {
+    expect(htmlPath(3).endsWith('episodes/ep-3/index.html')).toBe(true);
+  });
+
+  it('should put the feedback in the same episode folder', () => {
+    expect(feedbackPath(3).endsWith('episodes/ep-3/feedback.md')).toBe(true);
+  });
+});
+
+describe('buildHtml', () => {
+  it('should embed an audio player pointing at the lesson mp3 in the same folder', () => {
+    const html = buildHtml(chunks, meta, { hasAudio: true });
+    expect(html).toContain('src="lesson.mp3"');
+  });
+
+  it('should show a no-audio note instead of a dead player when the mp3 is missing', () => {
+    const html = buildHtml(chunks, meta, { hasAudio: false });
+    expect(html).not.toContain('<audio');
+    expect(html).toContain('No audio yet');
+  });
+
+  it('should show the Thai text of a line', () => {
+    expect(buildHtml(chunks, meta)).toContain('ตลาด');
+  });
+
+  it('should show the English text of a line', () => {
+    expect(buildHtml(chunks, meta)).toContain('It means market.');
+  });
+
+  it('should list the lesson words', () => {
+    expect(buildHtml(chunks, meta)).toContain('market');
+  });
+
+  it('should number the lines so feedback can reference them', () => {
+    const html = buildHtml(chunks, meta);
+    expect(html).toContain('data-line="1"');
+    expect(html).toContain('data-line="3"');
+  });
+
+  it('should escape HTML special characters in the text', () => {
+    const evil: Chunk[] = [{ speaker: 'teacher', lang: 'en', text: 'a < b & c', pauseAfter: 0.7 }];
+    expect(buildHtml(evil, meta)).toContain('a &lt; b &amp; c');
   });
 });
 

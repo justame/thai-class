@@ -4,7 +4,7 @@ import { selectLessonWords } from '../src/srs.js';
 import { addTranslations } from '../src/translate.js';
 import { loadLessonPlan, chooseLessonType } from '../src/lessons.js';
 import { generateScript } from '../src/script.js';
-import { buildTranscript, writeTranscript, readableView, hasTranscript } from '../src/transcript.js';
+import { buildTranscript, writeTranscript, readableView, hasTranscript, refreshHtml, writeFeedbackTemplate } from '../src/transcript.js';
 import { buildTitle, nextEpisodeNumber } from '../src/episode.js';
 import { loadEpisodes, lastEpisodeNumber } from '../src/episodes.js';
 import { today } from '../src/dates.js';
@@ -57,9 +57,12 @@ async function main(): Promise<void> {
   const title = buildTitle(filled, number);
   const transcript = buildTranscript(chunks, { episodeNumber: number, title, lessonType, words: filled, pubDate: today() });
   const path = await writeTranscript(number, transcript);
+  const html = await refreshHtml(number);
+  await writeFeedbackTemplate(number);
 
   console.log(`\n${readableView(chunks)}\n`);
   console.log(`Saved editable transcript to ${path}`);
+  console.log(`Readable page: ${html}`);
   console.log('Read/edit it, then run "npm run audio" to hear it (or "npm start" to publish).');
 }
 
