@@ -17,6 +17,16 @@ describe('fixGenderParticles', () => {
     expect(c.text).toBe('ไปไหนคะ');
   });
 
+  it('should give the female teacher ครับ when she models a male sentence (line uses ผม)', () => {
+    const [c] = fixGenderParticles([{ speaker: 'teacher', lang: 'th', text: 'ผมชอบอาหารค่ะ' }]);
+    expect(c.text).toBe('ผมชอบอาหารครับ');
+  });
+
+  it('should keep the female teacher ค่ะ on her own (non-ผม) line', () => {
+    const [c] = fixGenderParticles([{ speaker: 'student2', lang: 'th', text: 'ฉันชอบอาหารครับ' }]);
+    expect(c.text).toBe('ฉันชอบอาหารค่ะ');
+  });
+
   it('should not touch English lines', () => {
     const [c] = fixGenderParticles([{ speaker: 'teacher', lang: 'en', text: 'good ครับ' }]);
     expect(c.text).toBe('good ครับ');

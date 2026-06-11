@@ -13,6 +13,11 @@ export const INTERVALS_DAYS = [1, 3, 7, 14, 30];
 export const REVIEWS_PER_LESSON = 1;
 export const NEW_PER_LESSON = 1;
 
+// A word needs roughly 10-12 spaced exposures to be learned (Nation, "How Vocabulary
+// is Learned"). The audit (npm run audit) flags started words still under this, and a
+// growing review backlog — both mean words are being added faster than they recycle.
+export const TARGET_EXPOSURES = 10;
+
 // Soft audio length guard (seconds). Quality over duration — wide bounds, only catches
 // truly broken output (empty or runaway). Outside the range we warn but still publish.
 export const MIN_SECONDS = 30;
@@ -44,7 +49,11 @@ export const DEFAULT_PAUSE_SECONDS = 0.9;
 export const MIN_PAUSE_SECONDS = 0.2;
 export const MAX_PAUSE_SECONDS = 3.0;
 
-export const OPENAI_MODEL = 'gpt-4o';
+// Generation/review model. gpt-4o is the safe default (known to work on this account).
+// To try a stronger model that follows the Thai/romanization rules better, set
+// OPENAI_MODEL in .env (e.g. gpt-4.1) — no code change needed. A bad name fails the
+// whole run loudly, so only set one your account can use.
+export const OPENAI_MODEL = process.env.OPENAI_MODEL || 'gpt-4o';
 
 // TTS provider: 'google' (native Thai voices, correct tones, free) or 'elevenlabs'
 // (more human delivery but its generic voices speak Thai with a bad accent — tried and

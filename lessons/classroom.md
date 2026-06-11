@@ -12,29 +12,47 @@ full Thai sentences yet. Make it understandable FIRST, immersive second.
 
 - Start with a SITUATION in English, not a word. Give the listener a reason to care.
 - Meaning before immersion. Never leave an important Thai sentence unexplained — translate
-  or paraphrase it in English immediately after.
+  or paraphrase it in English immediately after. (English anchors are not a crutch: for true
+  beginners, brief native-language meaning beats pure immersion — Nation, vocabulary research.)
+- Make the listener RECALL, not just repeat. Producing the answer BEFORE hearing it teaches
+  far more than echoing after the teacher (Pimsleur's anticipation; retrieval research). So
+  prefer "How do you say X? … (long pause) …" then confirm, over plain "repeat after me".
 - Never more than 1-2 Thai lines in a row without English support.
 - The listener should never be confused for more than ~5 seconds.
 - Teach ONE main word and ONE useful pattern. Do not overload.
 - Include the listener: the teacher speaks to them directly ("Now you try. Say: …") with a
-  long pause to repeat.
+  long pause to respond.
 
 ## Cast, gender, politeness
 
-- "teacher" — FEMALE. Female speech: ค่ะ / คะ, ฉัน or ครู. Warm, upbeat, encouraging, fun —
-  human, not robotic and not childish. Give REAL, varied praise and feedback, not the same
-  word each time: mix things like "เยี่ยมเลยค่ะ!", "เก่งมากค่ะ", "ใกล้แล้ว ลองอีกที", and a
-  little personality ("ครูก็ชอบไปตลาดเหมือนกันค่ะ"). Tell the learner exactly what was good.
-- "student1" — MALE beginner. Male speech: ครับ, ผม. He should sound like he is genuinely
-  TRYING: hesitate with filler sounds and thinking pauses before answering — e.g. a short
-  line "เอ่อ…" or "อืม… let me think" with a LONG pauseAfter (1.5-2.5s), THEN his attempt.
+Everyone has a name and uses it. The teacher introduces herself and both students at the
+start, and speakers address each other by name. (Speaker IDs in the script stay
+"teacher" / "student1" / "student2" — the names are only spoken.)
+
+- "teacher" — ครูแนน (Kru Nan), FEMALE. Female speech: ค่ะ / คะ, ฉัน or ครู. Warm, upbeat,
+  encouraging, fun — human, not robotic and not childish. Give REAL, varied praise and
+  feedback, not the same word each time: mix things like "เยี่ยมเลยค่ะ!", "เก่งมากค่ะ",
+  "ใกล้แล้ว ลองอีกที", and a little personality ("ครูก็ชอบไปตลาดเหมือนกันค่ะ"). Tell the
+  learner exactly what was good.
+- "student1" — Mike (ไมค์ in Thai lines), MALE American beginner. Male speech: ครับ, ผม. He should sound like he is
+  genuinely TRYING: hesitate with filler sounds and thinking pauses before answering — e.g. a
+  short line "เอ่อ…" or "อืม… let me think" with a LONG pauseAfter (1.5-2.5s), THEN his attempt.
   He makes ONE realistic mistake and does NOT self-correct — the teacher corrects him.
   Mistakes from: missing preposition/particle, literal English-to-Thai, wrong word order.
   Never nonsense.
-- "student2" — FEMALE, slightly stronger. Female speech: ค่ะ / คะ, ฉัน. Models correct Thai,
-  answers the teacher, helps build the mini conversation.
+- "student2" — Sarah (ซาร่า in Thai lines), FEMALE American, slightly stronger. Female speech:
+  ค่ะ / คะ, ฉัน. Models correct Thai, answers the teacher, helps build the mini conversation.
 
 Wrong-gender particles (a man saying ค่ะ) are a serious error — never do it.
+
+## Sound like real people, not a script
+
+- Thinking sounds are not only Mike's: anyone may briefly think before speaking. The American
+  students think in ENGLISH — "Hmmm…", "Hmm… let me think…", "Okay, let's see…" — as their own
+  lang "en" line with a long pauseAfter (1.5-2.5s), THEN the Thai attempt as a separate "th"
+  line. The Thai teacher may use Thai fillers ("อืม…", "เอ่อ…").
+- Vary pause lengths between turns; identical pauses everywhere sounds robotic.
+- Students answer with polite particles (ครับ / ค่ะ) where a Thai speaker naturally would.
 
 ## Register
 
@@ -65,18 +83,29 @@ each appear once; "try" and "correct" can appear a couple of times at natural mo
 
 1. cue "start".
 2. Context + why: in English, set an everyday Bangkok scene and what they'll be able to say.
-3. cue "new_word", then the main word in Thai, its English meaning, and "listen / repeat" (pause).
-4. A first simple Thai example, then its English translation.
-5. cue "try". student1 hesitates (a short "เอ่อ…/อืม…" line with a long pause, like he's
-   thinking), then attempts and makes a realistic mistake. Teacher corrects it warmly
-   (Thai + English meaning).
-6. student1 tries again and gets it; teacher praises him and plays cue "correct".
-7. student2 models the correct version; teacher confirms with a short translation + "correct" cue.
-8. cue "practice", then the teacher tells the listener to say a short Thai phrase, long pause, then confirms + translates.
-9. A short mini conversation (student2 asks, student1 answers) using the word/pattern, each
-   line translated to English right after.
-10. A one-line memory hook.
-11. cue "recap", then a clear recap: word = meaning, the pattern, one final example sentence,
+   The teacher introduces herself and the students by name.
+3. Roadmap: in 1-2 English sentences the teacher previews the lesson — first the new word,
+   then practice with Mike and Sarah, then the listener's turn, then a recap.
+4. cue "new_word", then the main word in Thai, its English meaning, and "listen / repeat" (pause).
+5. A first simple Thai example, then its English translation.
+6. cue "try". student1 hesitates (a short English "Hmm… let me think" line with a long pause),
+   then attempts and makes a realistic mistake. Teacher corrects it warmly, and SAYS THE
+   CORRECT FORM TWICE (a repeated recast helps more than one — error-correction research),
+   with the English meaning.
+7. student1 tries again and gets it; teacher praises him and plays cue "correct".
+8. student2 reinforces — she either says the same correct line once more, OR uses the pattern
+   with a word ALREADY TAUGHT (a review word or one from a past episode). She must NOT
+   introduce a new Thai content word just to vary the sentence. Teacher confirms with a short
+   translation + "correct" cue.
+9. cue "practice". The teacher first ASKS the listener to produce the phrase ("How do you say
+   'I am going' in Thai?"), gives a long pause (3s+ — enough to actually say it), and ONLY
+   THEN says the correct Thai and translates it. Retrieval-before-answer is the point; do not
+   model the line first.
+10. A short mini conversation (student2 asks, student1 answers) using the word/pattern. Any
+    question word or extra word must already be taught — if a needed word is new, ask the
+    question in English instead. Translate each Thai line to English right after.
+11. A one-line memory hook.
+12. cue "recap", then a clear recap: word = meaning, the pattern, one final example sentence,
     and what they can now do.
 
 ## Inputs
@@ -91,7 +120,23 @@ level: true beginner — take the time the lesson needs (roughly 1.5-3 minutes).
 and clarity come first; never rush or cut the structure to save time.
 
 ## Constraints
-- Teach ONLY the Thai words in Inputs as new vocabulary; common connector words are fine.
+- The ONLY new Thai content word is the one in Inputs. Do NOT introduce any other Thai noun,
+  verb, or adjective — not even in an example sentence. If an example needs a place or object
+  (market, water…), it must be a REVIEW word, a word taught in a past episode, or said in
+  English. Grammar particles needed for the pattern (จะ, เป็น, ที่…) are fine. (There is no
+  automated check for this yet — extra vocabulary slips through, so hold the line here.)
 - Keep lines short and clear for text-to-speech.
+- Thai must be HEARD in the Thai voice. Any Thai word the listener should hear or repeat
+  belongs in its OWN lang "th" line (the Thai voice speaks it with correct tones). Do NOT
+  romanize a word you want heard — romanization ('khon') is only a quick reference inside an
+  English explanation, and the English voice mispronounces it.
+- One script per line. A lang "th" line is all Thai script; a lang "en" line is all Latin.
+  Prefer separate lines: an English explanation line, then the Thai word as its own "th" line.
+  (Safety net: the build auto-splits any Thai left inside an English line into a Thai-voice
+  chunk, but write them separated so the pacing and pauses are intentional.)
+- Pauses inside a Thai sentence are not possible (the Thai voice has no in-text pause control).
+  For a beat mid-sentence, split it into two separate "th" lines with a pauseAfter on the first.
+- A hard-to-say word can be slowed with the optional 4th line field (the rate, e.g. 0.7);
+  lower = slower. There is no pronunciation override for Thai, so slowing is the only lever.
 - Optimize for a beginner successfully learning ONE useful Thai pattern — not for sounding
   maximally native.

@@ -46,7 +46,7 @@ export function buildTranscript(chunks, { episodeNumber, title, lessonType, word
     `date: ${pubDate}`,
     '---',
     '',
-    '<!-- One line per spoken line: [speaker|lang|pauseSeconds] text. Edit freely. -->',
+    '<!-- One line per spoken line: [speaker|lang|pauseSeconds|rate] text. The 4th field (rate) is optional; lower = slower. Edit freely. -->',
     '',
   ];
   for (const c of chunks) {

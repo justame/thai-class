@@ -6,6 +6,7 @@ import ffmpegPath from 'ffmpeg-static';
 import { DEFAULT_PAUSE_SECONDS, MIN_PAUSE_SECONDS, MAX_PAUSE_SECONDS, PATHS, MIN_SECONDS, MAX_SECONDS, TTS_PROVIDER } from './config.js';
 import * as google from './tts-google.js';
 import * as elevenlabs from './tts-elevenlabs.js';
+import { checkNoMixedScript } from './script-check.js';
 
 // Each lesson chunk is synthesized separately, then the audio segments are stitched
 // together. This is required, not optional: Thai sentences have no ending punctuation,
@@ -107,6 +108,9 @@ async function stitchToMp3(segmentPaths, pauses, mp3Path) {
 
 // Build the lesson MP3 from the chunks. Returns { mp3Path, durationSeconds }.
 export async function makeAudio(chunks, { outPath } = {}) {
+  // Final gate, covering hand-edited transcripts: a line mixing Thai and Latin would be
+  // voiced as garbage, so refuse it here rather than spend TTS on broken audio.
+  checkNoMixedScript(chunks);
   await mkdir(PATHS.build, { recursive: true });
   const mp3Path = outPath ?? join(PATHS.build, 'lesson.mp3');
 

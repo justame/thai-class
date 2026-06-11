@@ -9,7 +9,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": true
   },
   {
     "id": "w00007_ตกลง",
@@ -21,7 +22,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": true
   },
   {
     "id": "w00023_คน",
@@ -33,7 +35,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00013_ขอบใจ",
@@ -45,7 +48,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": true
   },
   {
     "id": "w00014_ขอโทษ",
@@ -57,7 +61,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": true
   },
   {
     "id": "w00010_มา",
@@ -69,7 +74,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": true
   },
   {
     "id": "w00052_ชม",
@@ -81,7 +87,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00055_ตาย",
@@ -93,7 +100,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00056_ประมาณ",
@@ -105,7 +113,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00058_หมอ",
@@ -117,7 +126,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00060_เพลง",
@@ -129,7 +139,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00067_โกหก",
@@ -141,7 +152,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00071_เวลา",
@@ -153,7 +165,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00073_ออกมา",
@@ -165,7 +178,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00077_ตำรวจ",
@@ -177,7 +191,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00084_ขวา",
@@ -189,7 +204,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00085_จอง",
@@ -201,7 +217,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00090_ตลอดเวลา",
@@ -213,7 +230,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00103_ตลอดไป",
@@ -225,7 +243,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00104_รอ",
@@ -237,7 +256,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00105_พอ",
@@ -249,7 +269,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00108_ชา",
@@ -261,7 +282,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00109_ถอนหายใจ",
@@ -273,7 +295,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00110_ขอ",
@@ -285,7 +308,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00113_ทำ",
@@ -297,7 +321,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00115_มาก",
@@ -309,7 +334,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00118_ทหาร",
@@ -321,7 +347,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00119_รอย",
@@ -333,7 +360,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00123_เอา",
@@ -345,7 +373,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00129_รอบ",
@@ -357,7 +386,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00133_คะแนน",
@@ -369,7 +399,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00139_สหาย",
@@ -381,7 +412,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00140_สวย",
@@ -393,7 +425,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00141_ออก",
@@ -405,7 +438,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00142_ไฟ",
@@ -417,7 +451,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00146_พรรคพวก",
@@ -429,7 +464,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00147_ตลอด",
@@ -441,7 +477,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00148_คนสวย",
@@ -453,7 +490,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00015_ทำงาน",
@@ -465,7 +503,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00153_งาน",
@@ -477,7 +516,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00022_รถ",
@@ -489,7 +529,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00157_ถอย",
@@ -501,7 +542,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00159_ตะโกน",
@@ -513,7 +555,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00162_กาแฟ",
@@ -525,7 +568,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": true
   },
   {
     "id": "w00163_สาว",
@@ -537,7 +581,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00164_ยา",
@@ -549,7 +594,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00165_ชนะ",
@@ -561,7 +607,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00166_โดยเฉพาะ",
@@ -573,7 +620,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00167_หายใจ",
@@ -585,7 +633,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00168_ฆาตกร",
@@ -597,7 +646,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00018_อาหาร",
@@ -609,7 +659,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00170_แปลก",
@@ -621,7 +672,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00171_ถนน",
@@ -633,7 +685,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00172_หอบ",
@@ -645,7 +698,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00173_นอกจาก",
@@ -657,7 +711,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00182_ฉลาด",
@@ -669,7 +724,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00183_ฆาตกรรม",
@@ -681,7 +737,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00186_ศพ",
@@ -693,7 +750,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00195_เชฟ",
@@ -705,7 +763,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00197_ลง",
@@ -717,7 +776,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00198_โรงพยาบาล",
@@ -729,7 +789,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00202_ในอนาคต",
@@ -741,7 +802,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00203_บอก",
@@ -753,7 +815,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00204_จบ",
@@ -765,7 +828,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00206_โลก",
@@ -777,7 +841,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00210_ตลอดกาล",
@@ -789,7 +854,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00215_เหลวไหล",
@@ -801,7 +867,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00217_ตามใจ",
@@ -813,7 +880,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00218_ตา",
@@ -825,7 +893,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00220_โดด",
@@ -837,7 +906,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00221_ความตาย",
@@ -849,7 +919,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00223_ลงมา",
@@ -861,7 +932,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00224_ชาย",
@@ -873,7 +945,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00225_ทาง",
@@ -885,7 +958,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00227_คราง",
@@ -897,7 +971,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00229_พยาบาล",
@@ -909,7 +984,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00232_ชอบ",
@@ -921,7 +997,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00234_มาจาก",
@@ -933,7 +1010,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00238_ขโมย",
@@ -945,7 +1023,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00239_กระโดด",
@@ -957,7 +1036,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00240_เจอ",
@@ -969,7 +1049,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00244_โรงแรม",
@@ -981,7 +1062,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": true
   },
   {
     "id": "w00249_ประธาน",
@@ -993,7 +1075,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00250_โทร",
@@ -1005,7 +1088,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00255_นรก",
@@ -1017,7 +1101,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00258_ลอง",
@@ -1029,7 +1114,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00259_ภรรยา",
@@ -1041,7 +1127,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00263_คำถาม",
@@ -1053,7 +1140,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00265_สงคราม",
@@ -1065,7 +1153,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00266_อนาคต",
@@ -1077,7 +1166,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00271_อยาก",
@@ -1089,7 +1179,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00272_ยาย",
@@ -1101,7 +1192,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00025_หมา",
@@ -1113,7 +1205,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00026_แมว",
@@ -1125,7 +1218,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": true
   },
   {
     "id": "w00275_หมดเวลา",
@@ -1137,7 +1231,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00277_พระราชา",
@@ -1149,7 +1244,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00281_สาย",
@@ -1161,7 +1257,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00282_เกม",
@@ -1173,7 +1270,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": true
   },
   {
     "id": "w00284_นอนลง",
@@ -1185,7 +1283,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00285_หลบ",
@@ -1197,7 +1296,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00288_แหวน",
@@ -1209,7 +1309,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00289_วาว",
@@ -1221,7 +1322,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00290_โกรธ",
@@ -1233,7 +1335,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00295_มากมาย",
@@ -1245,7 +1348,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00297_ภาษา",
@@ -1257,7 +1361,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00299_มอง",
@@ -1269,7 +1374,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00300_ราคา",
@@ -1281,7 +1387,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00302_รายงาน",
@@ -1293,7 +1400,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00303_ขวด",
@@ -1305,7 +1413,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00304_แผน",
@@ -1317,7 +1426,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00305_สวยงาม",
@@ -1329,7 +1439,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00311_คำ",
@@ -1341,7 +1452,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00312_คนตาย",
@@ -1353,7 +1465,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00317_ตรวจสอบ",
@@ -1365,7 +1478,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00319_อากาศ",
@@ -1377,7 +1491,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00320_ขนาด",
@@ -1389,7 +1504,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00321_ดาว",
@@ -1401,7 +1517,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00324_บรรยาย",
@@ -1413,7 +1530,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00328_ทะเล",
@@ -1425,7 +1543,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00332_นาน",
@@ -1437,7 +1556,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00333_กด",
@@ -1449,7 +1569,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00334_เขต",
@@ -1461,7 +1582,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00335_ปลา",
@@ -1473,7 +1595,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00336_เท",
@@ -1485,7 +1608,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00337_ดาบ",
@@ -1497,7 +1621,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00340_กรรไกร",
@@ -1509,7 +1634,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00341_นก",
@@ -1521,7 +1647,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00345_หมอบ",
@@ -1533,7 +1660,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00346_พยายาม",
@@ -1545,7 +1673,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00348_ทดสอบ",
@@ -1557,7 +1686,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00349_ทำความสะอาด",
@@ -1569,7 +1699,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00350_สกปรก",
@@ -1581,7 +1712,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00352_สบาย",
@@ -1593,7 +1725,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": true
   },
   {
     "id": "w00353_กระดาษ",
@@ -1605,7 +1738,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00354_ราวๆ",
@@ -1617,7 +1751,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00357_แดง",
@@ -1629,7 +1764,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00358_จดหมาย",
@@ -1641,7 +1777,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00359_แถว",
@@ -1653,7 +1790,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00362_ขา",
@@ -1665,7 +1803,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00363_บาทหลวง",
@@ -1677,7 +1816,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00364_ประกาศ",
@@ -1689,7 +1829,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00365_ลบ",
@@ -1701,7 +1842,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00367_รถไฟ",
@@ -1713,7 +1855,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00368_ตลก",
@@ -1725,7 +1868,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00369_ชน",
@@ -1737,7 +1881,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00370_พระ",
@@ -1749,7 +1894,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00373_ประทานโทษ",
@@ -1761,7 +1907,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00034_หนาว",
@@ -1773,7 +1920,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00376_โชคชะตา",
@@ -1785,7 +1933,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00381_ไปหา",
@@ -1797,7 +1946,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00382_ทนาย",
@@ -1809,7 +1959,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00387_คนเลว",
@@ -1821,7 +1972,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00388_ทารก",
@@ -1833,7 +1985,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00389_ความทรงจำ",
@@ -1845,7 +1998,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00392_พลทหาร",
@@ -1857,7 +2011,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00393_สาบาน",
@@ -1869,7 +2024,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00394_พาย",
@@ -1881,7 +2037,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00397_หลอกลวง",
@@ -1893,7 +2050,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00011_นอน",
@@ -1905,7 +2063,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00402_อาย",
@@ -1917,7 +2076,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00403_ทำลาย",
@@ -1929,7 +2089,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00407_ยอด",
@@ -1941,7 +2102,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00408_ทางขวา",
@@ -1953,7 +2115,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00410_หวานใจ",
@@ -1965,7 +2128,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00411_โอกาส",
@@ -1977,7 +2141,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00412_คำตอบ",
@@ -1989,7 +2154,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00414_ประหลาด",
@@ -2001,7 +2167,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00415_ทอง",
@@ -2013,7 +2180,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00416_อำนาจ",
@@ -2025,7 +2193,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00417_ตรง",
@@ -2037,7 +2206,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00418_ตาม",
@@ -2049,7 +2219,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00419_กาย",
@@ -2061,7 +2232,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00422_หยาบคาย",
@@ -2073,7 +2245,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00424_เบา",
@@ -2085,7 +2258,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00425_ธรรมดา",
@@ -2097,7 +2271,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00432_พบ",
@@ -2109,7 +2284,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00433_ดอก",
@@ -2121,7 +2297,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00434_ออม",
@@ -2133,7 +2310,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00436_ราว",
@@ -2145,7 +2323,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00437_แถม",
@@ -2157,7 +2336,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00438_ภาค",
@@ -2169,7 +2349,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00441_ขยะ",
@@ -2181,7 +2362,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00442_เลว",
@@ -2193,7 +2375,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00443_ยาว",
@@ -2205,7 +2388,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00445_หวาน",
@@ -2217,7 +2401,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00448_ฝนตก",
@@ -2229,7 +2414,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00452_ภาพ",
@@ -2241,7 +2427,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00453_เยอะ",
@@ -2253,7 +2440,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00455_ทรมาน",
@@ -2265,7 +2453,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00456_กระจก",
@@ -2277,7 +2466,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00457_ธนาคาร",
@@ -2289,7 +2479,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00458_ตำนาน",
@@ -2301,7 +2492,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00459_ถาม",
@@ -2313,7 +2505,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00462_สน",
@@ -2325,7 +2518,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00463_ประเภท",
@@ -2337,7 +2531,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00464_บาง",
@@ -2349,7 +2544,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00465_ตลอดมา",
@@ -2361,7 +2557,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00468_รายการ",
@@ -2373,7 +2570,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00469_สามารถ",
@@ -2385,7 +2583,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00470_ดำ",
@@ -2397,7 +2596,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00471_ตก",
@@ -2409,7 +2609,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00472_สมอง",
@@ -2421,7 +2622,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00475_ปะทะ",
@@ -2433,7 +2635,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00476_เตะ",
@@ -2445,7 +2648,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00477_ความโกรธ",
@@ -2457,7 +2661,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00478_เพชร",
@@ -2469,7 +2674,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00479_ฝน",
@@ -2481,7 +2687,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00014_ขาย",
@@ -2493,7 +2700,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00481_นม",
@@ -2505,7 +2713,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00485_แปล",
@@ -2517,7 +2726,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00486_ของหวาน",
@@ -2529,7 +2739,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00487_ฉลอง",
@@ -2541,7 +2752,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00488_พา",
@@ -2553,7 +2765,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00489_ทางออก",
@@ -2565,7 +2778,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00491_รถพยาบาล",
@@ -2577,7 +2791,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00494_ขาว",
@@ -2589,7 +2804,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00498_เกรด",
@@ -2601,7 +2817,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00499_คำสาป",
@@ -2613,7 +2830,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00500_ราชา",
@@ -2625,7 +2843,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00501_ขอเวลา",
@@ -2637,7 +2856,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00502_ประชาชน",
@@ -2649,7 +2869,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00504_ตอบ",
@@ -2661,7 +2882,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00505_กฎ",
@@ -2673,7 +2895,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00510_แยก",
@@ -2685,7 +2908,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00512_ลาออก",
@@ -2697,7 +2921,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00515_ประสาท",
@@ -2709,7 +2934,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00516_ยาน",
@@ -2721,7 +2947,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00519_ประเทศ",
@@ -2733,7 +2960,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00520_ปากกา",
@@ -2745,7 +2973,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00522_วาง",
@@ -2757,7 +2986,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00523_แมลง",
@@ -2769,7 +2999,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00524_กวาง",
@@ -2781,7 +3012,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00531_ไกล",
@@ -2793,7 +3025,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00532_ตกใจ",
@@ -2805,7 +3038,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00534_กรรมการ",
@@ -2817,7 +3051,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00535_แขก",
@@ -2829,7 +3064,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00536_ระบบ",
@@ -2841,7 +3077,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00537_กรรม",
@@ -2853,7 +3090,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00538_ตอนจบ",
@@ -2865,7 +3103,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00539_ตามหา",
@@ -2877,7 +3116,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00541_หาย",
@@ -2889,7 +3129,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00543_จากไป",
@@ -2901,7 +3142,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00545_ทำความเคารพ",
@@ -2913,7 +3155,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00553_ยก",
@@ -2925,7 +3168,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00554_กางเกงใน",
@@ -2937,7 +3181,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00555_ปาก",
@@ -2949,7 +3194,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00556_อาชญากรรม",
@@ -2961,7 +3207,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00557_ยานอวกาศ",
@@ -2973,7 +3220,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00558_จำนวน",
@@ -2985,7 +3233,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00560_ลม",
@@ -2997,7 +3246,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00562_คาถา",
@@ -3009,7 +3259,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00563_กระรอก",
@@ -3021,7 +3272,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00565_เกาะ",
@@ -3033,7 +3285,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00566_ระยะ",
@@ -3045,7 +3298,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00567_ปลาย",
@@ -3057,7 +3311,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00568_ความสามารถ",
@@ -3069,7 +3324,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00570_คำแนะนำ",
@@ -3081,7 +3337,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00571_ดารา",
@@ -3093,7 +3350,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00572_โสด",
@@ -3105,7 +3363,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00574_แรง",
@@ -3117,7 +3376,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00576_หมวก",
@@ -3129,7 +3389,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00577_งดงาม",
@@ -3141,7 +3402,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00578_ออกจาก",
@@ -3153,7 +3415,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00579_ประณาม",
@@ -3165,7 +3428,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00580_สะพาน",
@@ -3177,7 +3441,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00581_พยาน",
@@ -3189,7 +3454,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00582_จน",
@@ -3201,7 +3467,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00584_ทะเลสาบ",
@@ -3213,7 +3480,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00586_ตบ",
@@ -3225,7 +3493,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00587_ทราบ",
@@ -3237,7 +3506,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00588_ซอย",
@@ -3249,7 +3519,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00592_ยาง",
@@ -3261,7 +3532,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00594_จอด",
@@ -3273,7 +3545,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00597_เพศ",
@@ -3285,7 +3558,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00598_ทำอาหาร",
@@ -3297,7 +3571,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00600_เอกสาร",
@@ -3309,7 +3584,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00601_เทวดา",
@@ -3321,7 +3597,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00602_แขน",
@@ -3333,7 +3610,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00603_เกลอ",
@@ -3345,7 +3623,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00604_บอกลา",
@@ -3357,7 +3636,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00605_โชค",
@@ -3369,7 +3649,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00607_การแสดง",
@@ -3381,7 +3662,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00608_กอง",
@@ -3393,7 +3675,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00609_เพศชาย",
@@ -3405,7 +3688,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00612_ขอประทานโทษ",
@@ -3417,7 +3701,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00614_โจร",
@@ -3429,7 +3714,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00615_ชาว",
@@ -3441,7 +3727,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00619_ประหลาดใจ",
@@ -3453,7 +3740,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00620_แสง",
@@ -3465,7 +3753,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00622_ยาก",
@@ -3477,7 +3766,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00623_โครงการ",
@@ -3489,7 +3779,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00627_ตรงไปตรงมา",
@@ -3501,7 +3792,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00629_พลาด",
@@ -3513,7 +3805,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00632_ฝาแฝด",
@@ -3525,7 +3818,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00633_มด",
@@ -3537,7 +3831,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00634_กอด",
@@ -3549,7 +3844,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00635_โทษ",
@@ -3561,7 +3857,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00636_ครบ",
@@ -3573,7 +3870,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00637_กำแพง",
@@ -3585,7 +3883,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00638_หาง",
@@ -3597,7 +3896,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00639_ผล",
@@ -3609,7 +3909,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00640_ขนม",
@@ -3621,7 +3922,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00642_แสงไฟ",
@@ -3633,7 +3935,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00645_จำนวนมาก",
@@ -3645,7 +3948,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00648_อาชญากร",
@@ -3657,7 +3961,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00650_กางเกง",
@@ -3669,7 +3974,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00651_หายใจออก",
@@ -3681,7 +3987,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00653_สดใส",
@@ -3693,7 +4000,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00656_ไหว",
@@ -3705,7 +4013,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00657_รวย",
@@ -3717,7 +4026,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00658_อดทน",
@@ -3729,7 +4039,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00659_ขยะแขยง",
@@ -3741,7 +4052,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00660_บางเวลา",
@@ -3753,7 +4065,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00662_แปลกใจ",
@@ -3765,7 +4078,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00664_หลงทาง",
@@ -3777,7 +4091,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00665_ออกรถ",
@@ -3789,7 +4104,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00666_ถอนใจ",
@@ -3801,7 +4117,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00667_ฉลาม",
@@ -3813,7 +4130,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00668_ชมรม",
@@ -3825,7 +4143,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00670_ทา",
@@ -3837,7 +4156,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00671_แผนก",
@@ -3849,7 +4169,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00674_หมด",
@@ -3861,7 +4182,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00677_คณะกรรมการ",
@@ -3873,7 +4195,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00679_วางแผน",
@@ -3885,7 +4208,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00680_ดวงดาว",
@@ -3897,7 +4221,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00681_สงบ",
@@ -3909,7 +4234,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00683_จรวด",
@@ -3921,7 +4247,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00685_กลอง",
@@ -3933,7 +4260,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00686_ความสนใจ",
@@ -3945,7 +4273,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00687_แกะ",
@@ -3957,7 +4286,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00692_ประชากร",
@@ -3969,7 +4299,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00693_ทรยศ",
@@ -3981,7 +4312,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00694_ใจ",
@@ -3993,7 +4325,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00695_ไต",
@@ -4005,7 +4338,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00696_ทาส",
@@ -4017,7 +4351,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00697_ขำ",
@@ -4029,7 +4364,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00698_เยอะแยะ",
@@ -4041,7 +4377,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00700_รวม",
@@ -4053,7 +4390,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00705_ชายหาด",
@@ -4065,7 +4403,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00707_ปราสาท",
@@ -4077,7 +4416,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00709_รอด",
@@ -4089,7 +4429,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00710_อาคาร",
@@ -4101,7 +4442,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00711_ไฟแดง",
@@ -4113,7 +4455,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00713_เคาะ",
@@ -4125,7 +4468,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00714_โบราณ",
@@ -4137,7 +4481,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00715_ทนายความ",
@@ -4149,7 +4494,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00716_นานๆ",
@@ -4161,7 +4507,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00717_แผล",
@@ -4173,7 +4520,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00718_สวน",
@@ -4185,7 +4533,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00721_ตาบอด",
@@ -4197,7 +4546,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00722_คอ",
@@ -4209,7 +4559,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00723_แหลม",
@@ -4221,7 +4572,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00725_ไทย",
@@ -4233,7 +4585,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00726_โมโห",
@@ -4245,7 +4598,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00727_อพยพ",
@@ -4257,7 +4611,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00728_โรงงาน",
@@ -4269,7 +4624,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00732_ออกอากาศ",
@@ -4281,7 +4637,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00733_แสงแดด",
@@ -4293,7 +4650,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00735_แทง",
@@ -4305,7 +4663,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00738_ภาพวาด",
@@ -4317,7 +4676,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00739_รอคอย",
@@ -4329,7 +4689,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00740_ของปลอม",
@@ -4341,7 +4702,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00743_หายนะ",
@@ -4353,7 +4715,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00745_ซวย",
@@ -4365,7 +4728,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00746_แสดง",
@@ -4377,7 +4741,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00748_แตงโม",
@@ -4389,7 +4754,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00749_กลาง",
@@ -4401,7 +4767,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00750_กระทง",
@@ -4413,7 +4780,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00751_ความจำ",
@@ -4425,7 +4793,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00752_สาขา",
@@ -4437,7 +4806,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00755_วางสาย",
@@ -4449,7 +4819,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00757_สะอาด",
@@ -4461,7 +4832,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00758_เฉา",
@@ -4473,7 +4845,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00759_ซอส",
@@ -4485,7 +4858,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00762_นายทหาร",
@@ -4497,7 +4871,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00763_เงา",
@@ -4509,7 +4884,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00764_จำเลย",
@@ -4521,7 +4897,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00766_หวาดระแวง",
@@ -4533,7 +4910,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00767_ปอด",
@@ -4545,7 +4923,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00768_อวกาศ",
@@ -4557,7 +4936,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00769_สด",
@@ -4569,7 +4949,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00770_โกง",
@@ -4581,7 +4962,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00771_ฉาก",
@@ -4593,7 +4975,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00773_โรค",
@@ -4605,7 +4988,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00774_ระยะทาง",
@@ -4617,7 +5001,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00776_เผา",
@@ -4629,7 +5014,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00778_คนสารเลว",
@@ -4641,7 +5027,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00780_คอย",
@@ -4653,7 +5040,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00782_บทความ",
@@ -4665,7 +5053,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00783_รอง",
@@ -4677,7 +5066,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00784_เหมาะสม",
@@ -4689,7 +5079,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00785_จำ",
@@ -4701,7 +5092,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00786_ดาวตก",
@@ -4713,7 +5105,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00787_กลางๆ",
@@ -4725,7 +5118,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00788_กฎหมาย",
@@ -4737,7 +5131,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00790_ธรรมดาๆ",
@@ -4749,7 +5144,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00791_ดม",
@@ -4761,7 +5157,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00796_นางแบบ",
@@ -4773,7 +5170,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00797_ทราย",
@@ -4785,7 +5183,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00798_ขอบ",
@@ -4797,7 +5196,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00799_กบฏ",
@@ -4809,7 +5209,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00801_นอก",
@@ -4821,7 +5222,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00802_การทำงาน",
@@ -4833,7 +5235,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00808_ฐาน",
@@ -4845,7 +5248,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00812_แผนการ",
@@ -4857,7 +5261,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00814_ควร",
@@ -4869,7 +5274,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00815_ตกปลา",
@@ -4881,7 +5287,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00816_ดวงตา",
@@ -4893,7 +5300,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00817_การทดลอง",
@@ -4905,7 +5313,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00818_ตรงกลาง",
@@ -4917,7 +5326,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00819_ลำบาก",
@@ -4929,7 +5339,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00821_โคลน",
@@ -4941,7 +5352,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00822_ลดลง",
@@ -4953,7 +5365,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00823_หลานชาย",
@@ -4965,7 +5378,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00825_ทดลอง",
@@ -4977,7 +5391,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00829_ซอก",
@@ -4989,7 +5404,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00831_เสนอ",
@@ -5001,7 +5417,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00833_วาด",
@@ -5013,7 +5430,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00834_มองหา",
@@ -5025,7 +5443,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00835_คนรวย",
@@ -5037,7 +5456,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00836_นวด",
@@ -5049,7 +5469,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00838_โรคระบาด",
@@ -5061,7 +5482,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00841_ทรงผม",
@@ -5073,7 +5495,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00842_หยด",
@@ -5085,7 +5508,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00843_ตรวจ",
@@ -5097,7 +5521,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00845_แมลงสาบ",
@@ -5109,7 +5534,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00846_เนย",
@@ -5121,7 +5547,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00847_ลานจอดรถ",
@@ -5133,7 +5560,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00848_ลอย",
@@ -5145,7 +5573,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00849_ไว",
@@ -5157,7 +5586,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00850_เทา",
@@ -5169,7 +5599,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00852_อาละวาด",
@@ -5181,7 +5612,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00854_หลาน",
@@ -5193,7 +5625,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00855_คนธรรมดา",
@@ -5205,7 +5638,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00856_นำ",
@@ -5217,7 +5651,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00857_ผอม",
@@ -5229,7 +5664,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00858_สนใจ",
@@ -5241,7 +5677,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00861_ละคร",
@@ -5253,7 +5690,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00862_เคารพ",
@@ -5265,7 +5703,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00864_พอใจ",
@@ -5277,7 +5716,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00866_สายลม",
@@ -5289,7 +5729,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00869_โคมไฟ",
@@ -5301,7 +5742,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00870_โยคะ",
@@ -5313,7 +5755,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00872_สำรอง",
@@ -5325,7 +5768,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00874_ผลงาน",
@@ -5337,7 +5781,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00875_จาน",
@@ -5349,7 +5794,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00876_มาหา",
@@ -5361,7 +5807,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00878_งานศพ",
@@ -5373,7 +5820,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00879_มาสาย",
@@ -5385,7 +5833,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00880_แนะนำ",
@@ -5397,7 +5846,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00881_ปลาวาฬ",
@@ -5409,7 +5859,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00883_มหาศาล",
@@ -5421,7 +5872,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00889_ทองคำ",
@@ -5433,7 +5885,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00891_รบกวน",
@@ -5445,7 +5898,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00892_แตะ",
@@ -5457,7 +5911,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00893_ไฟฉาย",
@@ -5469,7 +5924,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00895_ใจแคบ",
@@ -5481,7 +5937,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00896_แขวนคอ",
@@ -5493,7 +5950,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00897_นอกใจ",
@@ -5505,7 +5963,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00898_ยากจน",
@@ -5517,7 +5976,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00900_โลหะ",
@@ -5529,7 +5989,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00902_ใส",
@@ -5541,7 +6002,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00903_ความพยายาม",
@@ -5553,7 +6015,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00905_ความปรารถนา",
@@ -5565,7 +6028,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00906_คำขอโทษ",
@@ -5577,7 +6041,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00907_แตก",
@@ -5589,7 +6054,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00908_วงกลม",
@@ -5601,7 +6067,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00910_สารภาพ",
@@ -5613,7 +6080,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00911_โกน",
@@ -5625,7 +6093,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00913_กรน",
@@ -5637,7 +6106,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00914_เกราะ",
@@ -5649,7 +6119,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00916_สะดวก",
@@ -5661,7 +6132,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00917_การกระทำ",
@@ -5673,7 +6145,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00918_ความอดทน",
@@ -5685,7 +6158,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00919_ยอม",
@@ -5697,7 +6171,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00920_ขน",
@@ -5709,7 +6184,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00921_สอน",
@@ -5721,7 +6197,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00923_แพง",
@@ -5733,7 +6210,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00926_ตรงๆ",
@@ -5745,7 +6223,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00927_ศาสนา",
@@ -5757,7 +6236,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00928_ตลอดทาง",
@@ -5769,7 +6249,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00929_อาการ",
@@ -5781,7 +6262,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00932_ความยากจน",
@@ -5793,7 +6275,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00933_สะโพก",
@@ -5805,7 +6288,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00936_เหงา",
@@ -5817,7 +6301,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00938_เนรเทศ",
@@ -5829,7 +6314,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00939_หลอดไฟ",
@@ -5841,7 +6327,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00941_กบ",
@@ -5853,7 +6340,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00944_งา",
@@ -5865,7 +6353,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00945_ทะเยอทะยาน",
@@ -5877,7 +6366,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00947_จนตาย",
@@ -5889,7 +6379,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00948_ความเหงา",
@@ -5901,7 +6392,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00949_ตามกฎหมาย",
@@ -5913,7 +6405,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00950_สวนสาธารณะ",
@@ -5925,7 +6418,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00951_ทะเลทราย",
@@ -5937,7 +6431,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00952_ประหาร",
@@ -5949,7 +6444,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00953_ตรงเวลา",
@@ -5961,7 +6457,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00954_หลง",
@@ -5973,7 +6470,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00956_โสโครก",
@@ -5985,7 +6483,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00958_ในประเทศ",
@@ -5997,7 +6496,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00959_ยาวนาน",
@@ -6009,7 +6509,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00962_มายองเนส",
@@ -6021,7 +6522,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00963_ความสงบ",
@@ -6033,7 +6535,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00965_ขนมหวาน",
@@ -6045,7 +6548,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00967_เหมาะ",
@@ -6057,7 +6561,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00968_เบาะแส",
@@ -6069,7 +6574,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00969_หลอก",
@@ -6081,7 +6587,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00972_ลมหายใจ",
@@ -6093,7 +6600,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00973_นกกระจอก",
@@ -6105,7 +6613,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00974_ครวญคราง",
@@ -6117,7 +6626,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00975_ชก",
@@ -6129,7 +6639,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00976_คลอด",
@@ -6141,7 +6652,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00981_หนอน",
@@ -6153,7 +6665,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00982_ภาพหลอน",
@@ -6165,7 +6678,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00983_มาราธอน",
@@ -6177,7 +6691,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00984_รำคาญ",
@@ -6189,7 +6704,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00986_ตกงาน",
@@ -6201,7 +6717,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00987_สอบสวน",
@@ -6213,7 +6730,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00989_พระเอก",
@@ -6225,7 +6743,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00992_ทาน",
@@ -6237,7 +6756,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00994_คนงาน",
@@ -6249,7 +6769,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00996_ระยะเวลา",
@@ -6261,7 +6782,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00997_มายากล",
@@ -6273,7 +6795,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00998_ไมโครเวฟ",
@@ -6285,7 +6808,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01001_ถอด",
@@ -6297,7 +6821,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01002_จำลอง",
@@ -6309,7 +6834,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01003_เปราะบาง",
@@ -6321,7 +6847,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01005_จม",
@@ -6333,7 +6860,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01006_โฆษณา",
@@ -6345,7 +6873,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01009_ฟอง",
@@ -6357,7 +6886,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01011_ยวน",
@@ -6369,7 +6899,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01012_ความอดอยาก",
@@ -6381,7 +6912,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01015_คม",
@@ -6393,7 +6925,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01017_ทอ",
@@ -6405,7 +6938,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01018_มาตรฐาน",
@@ -6417,7 +6951,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01019_ชาม",
@@ -6429,7 +6964,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01020_โยน",
@@ -6441,7 +6977,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01021_ธง",
@@ -6453,7 +6990,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01022_เขาแกะ",
@@ -6465,7 +7003,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01023_ของฝาก",
@@ -6477,7 +7016,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01025_ความเคารพ",
@@ -6489,7 +7029,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01029_หยะแหยง",
@@ -6501,7 +7042,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01032_เมตตา",
@@ -6513,7 +7055,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01035_โลมา",
@@ -6525,7 +7068,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01038_ประชด",
@@ -6537,7 +7081,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01039_อวสาน",
@@ -6549,7 +7094,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01040_เทพ",
@@ -6561,7 +7107,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01041_ภายนอก",
@@ -6573,7 +7120,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01042_คนจน",
@@ -6585,7 +7133,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01043_ฟอก",
@@ -6597,7 +7146,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01047_สถานะ",
@@ -6609,7 +7159,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01048_สบายใจ",
@@ -6621,7 +7172,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01049_คาราเมล",
@@ -6633,7 +7185,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01050_สะกด",
@@ -6645,7 +7198,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01051_หมอก",
@@ -6657,7 +7211,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01053_หอยนางรม",
@@ -6669,7 +7224,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01054_ปลาโลมา",
@@ -6681,7 +7237,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01055_แตร",
@@ -6693,7 +7250,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01056_กระเพาะอาหาร",
@@ -6705,7 +7263,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01057_ทศวรรษ",
@@ -6717,7 +7276,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01059_หอคอย",
@@ -6729,7 +7289,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01060_ประภาคาร",
@@ -6741,7 +7302,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01062_สารประกอบ",
@@ -6753,7 +7315,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01064_สมควร",
@@ -6765,7 +7328,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01065_ผสม",
@@ -6777,7 +7341,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01066_โศกนาฏกรรม",
@@ -6789,7 +7354,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01067_แซง",
@@ -6801,7 +7367,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01069_สอดแนม",
@@ -6813,7 +7380,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01070_เทศกาล",
@@ -6825,7 +7393,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01071_กระจอก",
@@ -6837,7 +7406,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01072_บาป",
@@ -6849,7 +7419,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01074_กระดาน",
@@ -6861,7 +7432,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01075_รถชน",
@@ -6873,7 +7445,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01076_นอง",
@@ -6885,7 +7458,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01077_มารดา",
@@ -6897,7 +7471,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01078_ความโลภ",
@@ -6909,7 +7484,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01079_กาว",
@@ -6921,7 +7497,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01082_อมตะ",
@@ -6933,7 +7510,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01083_แปลกประหลาด",
@@ -6945,7 +7523,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01084_ความงดงาม",
@@ -6957,7 +7536,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01086_จาม",
@@ -6969,7 +7549,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01087_ลำบากใจ",
@@ -6981,7 +7562,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01089_แมวมอง",
@@ -6993,7 +7575,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01090_งาม",
@@ -7005,7 +7588,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01091_ดาวหาง",
@@ -7017,7 +7601,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01094_หอย",
@@ -7029,7 +7614,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01096_งานเทศกาล",
@@ -7041,7 +7627,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01097_ภาระ",
@@ -7053,7 +7640,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01098_ถาด",
@@ -7065,7 +7653,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01102_ภาพลวงตา",
@@ -7077,7 +7666,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01103_อก",
@@ -7089,7 +7679,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01105_ระบบประสาท",
@@ -7101,7 +7692,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01107_ตรา",
@@ -7113,7 +7705,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01109_บาดแผล",
@@ -7125,7 +7718,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01110_นายแบบ",
@@ -7137,7 +7731,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01112_ทางหลวง",
@@ -7149,7 +7744,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01113_หาว",
@@ -7161,7 +7757,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01114_หลวม",
@@ -7173,7 +7770,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01115_กรง",
@@ -7185,7 +7783,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01116_คลาน",
@@ -7197,7 +7796,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01117_หมอน",
@@ -7209,7 +7809,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01118_กระวนกระวาย",
@@ -7221,7 +7822,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01119_รอบคอบ",
@@ -7233,7 +7835,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01120_กระดาษชำระ",
@@ -7245,7 +7848,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01121_โรงนา",
@@ -7257,7 +7861,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01122_แยง",
@@ -7269,7 +7874,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01123_ยกโทษ",
@@ -7281,7 +7887,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01125_ทำทาน",
@@ -7293,7 +7900,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01129_ขอทาง",
@@ -7305,7 +7913,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01130_ชะตากรรม",
@@ -7317,7 +7926,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01131_เครา",
@@ -7329,7 +7939,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01133_ภาวนา",
@@ -7341,7 +7952,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01135_กระโปรง",
@@ -7353,7 +7965,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01136_แสบ",
@@ -7365,7 +7978,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01137_ทอด",
@@ -7377,7 +7991,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01138_โรงอาหาร",
@@ -7389,7 +8004,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01139_เปลวไฟ",
@@ -7401,7 +8017,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01140_สายฝน",
@@ -7413,7 +8030,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01141_แคน",
@@ -7425,7 +8043,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01144_ความสงสาร",
@@ -7437,7 +8056,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01146_ความหมาย",
@@ -7449,7 +8069,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01147_โต",
@@ -7461,7 +8082,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01148_ลด",
@@ -7473,7 +8095,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01149_คำทำนาย",
@@ -7485,7 +8108,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01150_กะโหลก",
@@ -7497,7 +8121,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01151_มะนาว",
@@ -7509,7 +8134,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01152_วานร",
@@ -7521,7 +8147,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01153_สาด",
@@ -7533,7 +8160,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01156_แสด",
@@ -7545,7 +8173,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01157_เพดาน",
@@ -7557,7 +8186,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01159_ประจำการ",
@@ -7569,7 +8199,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01160_เหมา",
@@ -7581,7 +8212,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00019_ตลาด",
@@ -7593,7 +8225,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01163_ความเมตตา",
@@ -7605,7 +8238,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01165_นางเอก",
@@ -7617,7 +8251,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01166_โครม",
@@ -7629,7 +8264,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01167_พรม",
@@ -7641,7 +8277,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01168_หาทาง",
@@ -7653,7 +8290,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01171_ศาล",
@@ -7665,7 +8303,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01172_บาน",
@@ -7677,7 +8316,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01174_ทำตาม",
@@ -7689,7 +8329,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01176_งานเอกสาร",
@@ -7701,7 +8342,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01178_ปลอด",
@@ -7713,7 +8355,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01180_นานแสนนาน",
@@ -7725,7 +8368,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01181_แพะ",
@@ -7737,7 +8381,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01182_ขนนก",
@@ -7749,7 +8394,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01183_ตำรา",
@@ -7761,7 +8407,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01185_สภาพอากาศ",
@@ -7773,7 +8420,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01186_เรอ",
@@ -7785,7 +8433,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01187_ลำคอ",
@@ -7797,7 +8446,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01191_ไขควง",
@@ -7809,7 +8459,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01192_สายตา",
@@ -7821,7 +8472,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01193_ใจสลาย",
@@ -7833,7 +8485,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01194_ประจบสอพลอ",
@@ -7845,7 +8498,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01195_บรรยากาศ",
@@ -7857,7 +8511,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01196_รวบรวม",
@@ -7869,7 +8524,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01198_แปลง",
@@ -7881,7 +8537,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w01199_ใบลาออก",
@@ -7893,7 +8550,8 @@
     "lastSeen": null,
     "intervalIndex": -1,
     "nextReviewDate": null,
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00000_โอเค",
@@ -7905,7 +8563,8 @@
     "lastSeen": "2026-06-10",
     "intervalIndex": 0,
     "nextReviewDate": "2026-06-11",
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": true
   },
   {
     "id": "w00001_อะไร",
@@ -7917,7 +8576,8 @@
     "lastSeen": "2026-06-10",
     "intervalIndex": 0,
     "nextReviewDate": "2026-06-11",
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00002_และ",
@@ -7929,7 +8589,8 @@
     "lastSeen": "2026-06-10",
     "intervalIndex": 0,
     "nextReviewDate": "2026-06-11",
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": false
   },
   {
     "id": "w00000_สวัสดี",
@@ -7941,7 +8602,8 @@
     "lastSeen": "2026-06-10",
     "intervalIndex": 1,
     "nextReviewDate": "2026-06-13",
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": true
   },
   {
     "id": "w00001_ขอบคุณ",
@@ -7953,7 +8615,8 @@
     "lastSeen": "2026-06-10",
     "intervalIndex": 1,
     "nextReviewDate": "2026-06-13",
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": true
   },
   {
     "id": "w00002_ครับ",
@@ -7965,6 +8628,7 @@
     "lastSeen": "2026-06-09",
     "intervalIndex": 0,
     "nextReviewDate": "2026-06-10",
-    "exampleSentences": []
+    "exampleSentences": [],
+    "obvious": true
   }
 ]

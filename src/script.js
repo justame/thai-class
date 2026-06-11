@@ -3,6 +3,8 @@ import { OPENAI_MODEL } from './config.js';
 import { buildLessonPrompt } from './lessons.js';
 import { reviewThai } from './verify.js';
 import { fixGenderParticles } from './particles.js';
+import { checkNoMixedScript } from './script-check.js';
+import { splitMixedScriptLines } from './split-script.js';
 
 // The lesson is returned as ordered chunks. Each chunk is one language so the audio
 // step can read Thai with a Thai voice and English with an English voice later. v1
@@ -73,10 +75,13 @@ export async function generateScript(newWords, reviewWords, { apiKey, lessonType
   const gendered = fixGenderParticles(chunks);
 
   // Second pass: a native Thai teacher fixes any bad/unnatural Thai before it is voiced.
-  if (!verify) return gendered;
+  if (!verify) return checkNoMixedScript(splitMixedScriptLines(gendered));
   const { chunks: reviewed, issues } = await reviewThai(gendered, { apiKey });
   if (issues.length) console.log(`Thai review fixed: ${issues.join('; ')}`);
-  return fixGenderParticles(checkChunks(reviewed));
+  // Any Thai left in an English line is split into its own Thai-voice chunk so it is
+  // HEARD in the Thai voice, never romanized into the English voice.
+  const clean = splitMixedScriptLines(fixGenderParticles(checkChunks(reviewed)));
+  return checkNoMixedScript(clean);
 }
 
 export { checkChunks, SPEAKERS };

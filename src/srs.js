@@ -27,8 +27,10 @@ export function getDueWords(words, today) {
 }
 
 // New words in file order (the file is seeded by frequency, most useful first).
+// Words tagged obvious (every beginner already knows them — see curate.js) are skipped:
+// they would waste an episode teaching nothing.
 export function getNewWords(words) {
-  return words.filter(isNew);
+  return words.filter((w) => isNew(w) && !w.obvious);
 }
 
 // Move a word one rung up the ladder and set its next review date.

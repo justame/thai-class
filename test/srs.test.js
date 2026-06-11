@@ -80,6 +80,11 @@ describe('getNewWords', () => {
     const words = [word({ id: 'a' }), word({ id: 'taught', intervalIndex: 0 }), word({ id: 'b' })];
     expect(getNewWords(words).map((w) => w.id)).toEqual(['a', 'b']);
   });
+
+  it('should skip words tagged obvious', () => {
+    const words = [word({ id: 'a', obvious: true }), word({ id: 'b' })];
+    expect(getNewWords(words).map((w) => w.id)).toEqual(['b']);
+  });
 });
 
 describe('advanceWord', () => {

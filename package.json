@@ -5,6 +5,8 @@
   "type": "module",
   "scripts": {
     "seed": "node scripts/seed.js",
+    "tag": "node scripts/tag-obvious.js",
+    "audit": "node scripts/audit.js",
     "text": "node scripts/text.js",
     "audio": "node scripts/audio.js",
     "smoke": "node scripts/smoke.js",
