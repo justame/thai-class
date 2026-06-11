@@ -36,7 +36,7 @@ start, and speakers address each other by name. (Speaker IDs in the script stay
   learner exactly what was good.
 - "student1" — Mike (ไมค์ in Thai lines), MALE American beginner. Male speech: ครับ, ผม. He should sound like he is
   genuinely TRYING: hesitate with filler sounds and thinking pauses before answering — e.g. a
-  short line "เอ่อ…" or "อืม… let me think" with a LONG pauseAfter (1.5-2.5s), THEN his attempt.
+  short line "เอ่อ…" or "อืม… let me think" ending the row with a long [wait 2s], THEN his attempt.
   He makes ONE realistic mistake and does NOT self-correct — the teacher corrects him.
   Mistakes from: missing preposition/particle, literal English-to-Thai, wrong word order.
   Never nonsense.
@@ -49,8 +49,8 @@ Wrong-gender particles (a man saying ค่ะ) are a serious error — never do
 
 - Thinking sounds are not only Mike's: anyone may briefly think before speaking. The American
   students think in ENGLISH — "Hmmm…", "Hmm… let me think…", "Okay, let's see…" — as their own
-  lang "en" line with a long pauseAfter (1.5-2.5s), THEN the Thai attempt as a separate "th"
-  line. The Thai teacher may use Thai fillers ("อืม…", "เอ่อ…").
+  row ending with a long [wait 2s], THEN the Thai attempt as a separate row. The Thai teacher
+  may use Thai fillers ("อืม…", "เอ่อ…").
 - Vary pause lengths between turns; identical pauses everywhere sounds robotic.
 - Students answer with polite particles (ครับ / ค่ะ) where a Thai speaker naturally would.
 
@@ -67,7 +67,7 @@ If there isn't a natural mistake, skip the mistake step and just teach through c
 
 ## Audio cues — keep it lively
 
-Insert short audio cues as their own chunks (speaker "cue", lang "en", pauseAfter 0.3).
+Insert short audio cues as their own row, written "[CUE: name]".
 Use them to make the lesson feel fun and easy to follow — but not between every line.
 Available cues and when to use them:
 - "start" — once, at the very beginning.
@@ -125,18 +125,18 @@ and clarity come first; never rush or cut the structure to save time.
   (market, water…), it must be a REVIEW word, a word taught in a past episode, or said in
   English. Grammar particles needed for the pattern (จะ, เป็น, ที่…) are fine. (There is no
   automated check for this yet — extra vocabulary slips through, so hold the line here.)
-- Keep lines short and clear for text-to-speech.
-- Thai must be HEARD in the Thai voice. Any Thai word the listener should hear or repeat
-  belongs in its OWN lang "th" line (the Thai voice speaks it with correct tones). Do NOT
-  romanize a word you want heard — romanization ('khon') is only a quick reference inside an
-  English explanation, and the English voice mispronounces it.
-- One script per line. A lang "th" line is all Thai script; a lang "en" line is all Latin.
-  Prefer separate lines: an English explanation line, then the Thai word as its own "th" line.
-  (Safety net: the build auto-splits any Thai left inside an English line into a Thai-voice
-  chunk, but write them separated so the pacing and pauses are intentional.)
-- Pauses inside a Thai sentence are not possible (the Thai voice has no in-text pause control).
-  For a beat mid-sentence, split it into two separate "th" lines with a pauseAfter on the first.
-- A hard-to-say word can be slowed with the optional 4th line field (the rate, e.g. 0.7);
-  lower = slower. There is no pronunciation override for Thai, so slowing is the only lever.
+- Keep rows short and clear for text-to-speech.
+- Thai must be HEARD in the Thai voice. Write any Thai the listener should hear or repeat in
+  Thai script (the Thai voice speaks it with correct tones). Do NOT romanize a word you want
+  heard — romanization ('khon') is only a quick reference inside an English explanation, and
+  the English voice mispronounces it.
+- Write Thai in Thai script and English in English, inline in the row. The build splits a
+  row's Thai and English into the right voices automatically, so an English explanation and
+  the Thai word can sit on one row — but keep each English sentence whole, never chopped.
+- For a pause, end a row with "[wait Ns]" (e.g. [wait 2s] after a word to repeat, [wait 5s]
+  for the listener to answer). For a beat mid-sentence, split it into two rows with the
+  [wait] on the first. There is no in-row pause control.
+- NOTE: the screenplay format has no per-word speed control (the old rate lever is gone), so
+  a hard-to-say Thai word cannot be slowed individually for now.
 - Optimize for a beginner successfully learning ONE useful Thai pattern — not for sounding
   maximally native.

@@ -113,16 +113,19 @@ TODAY'S ACTUAL WORDS — teach ONLY these:
 - REVIEW: ${reviewWords.map((w) => `${w.thai} (${w.english})`).join(', ') || '(none)'}
 Any other Thai words shown above are only format examples — do NOT teach them.
 
-OUTPUT FORMAT (always follow this exactly):
-Return ordered chunks. Each chunk is ONE line by ONE speaker in ONE language:
-- speaker: "teacher", "student1", "student2", or "cue". For a single-narrator lesson, use
-  "teacher" for every spoken chunk. A "cue" chunk is a short audio marker, not speech —
-  its text is one of: start, new_word, try, correct, practice, recap (lang "en", pauseAfter 0.3).
-- lang: "th" for Thai text, "en" for English text. Never mix scripts in one chunk —
-  split a Thai word inside an English sentence into separate chunks.
-- text: the spoken line (no stage directions, no "[pause]" markers).
-- pauseAfter: seconds of silence after this line. Use 0.7 normally; use 1.5-2.0 right
-  after a Thai word the listener should repeat.`;
+SCREENPLAY FORMAT (always follow this exactly):
+Write the lesson as a screenplay — one spoken line per row, in the order it is heard.
+- Each row is "SPEAKER: text" or "SPEAKER (mood): text". SPEAKER is one of TEACHER,
+  STUDENT1, STUDENT2. The (mood) is an optional delivery hint and is not spoken.
+- Keep Thai in Thai script, inline in the line. Write the English parts in English.
+  An English sentence stays on ONE row — do not chop it into fragments.
+- Audio cues are their own row written as "[CUE: name]" where name is one of:
+  start, new_word, try, correct, practice, recap.
+- To leave silence for the listener to answer or repeat, end a row with "[wait Ns]"
+  (seconds), e.g. a recall question "How do you say ...? [wait 5s]". Use a long wait
+  (5-6s) when the listener must produce a full phrase, ~2s right after a Thai word to
+  repeat. Do not add [wait] to ordinary lines.
+- No JSON. No stage directions other than the (mood) tag and [CUE:]/[wait] markers.`;
 }
 
 export { formatWords };

@@ -66,8 +66,8 @@ describe('buildLessonPrompt', () => {
     );
     expect(prompt).toContain('ตลาด = market');
     expect(prompt).toContain('กิน = eat');
-    expect(prompt).toContain('OUTPUT FORMAT');
-    expect(prompt).toContain('pauseAfter');
+    expect(prompt).toContain('SCREENPLAY FORMAT');
+    expect(prompt).toContain('[CUE:');
   });
 
   it('should throw for an unknown lesson type', async () => {
