@@ -28,6 +28,14 @@ function targetParticle(speaker: string, text: string): string {
 }
 
 // Fix the gendered particle for every Thai line so pronoun and particle agree. New chunks.
+//
+// NOTE: this runs on student1's lines too, including the line with his INTENTIONAL beginner
+// mistake — but it is safe against that. It only REPLACES an existing ครับ/ค่ะ/คะ, never adds
+// one, so a "missing particle" mistake passes through. The allowed mistakes are word order,
+// literal English-to-Thai, and missing particle (see classroom.md) — none is a particle swap.
+// A wrong-gender particle is explicitly forbidden as a mistake, so the only thing this would
+// change is a case the lesson never produces. Do NOT exempt student1 here: he is male, so
+// forcing ครับ is always correct for him, and exempting him would let real model errors through.
 export function fixGenderParticles(chunks: Chunk[]): Chunk[] {
   return chunks.map((c) => {
     if (c.lang !== 'th') return c;
