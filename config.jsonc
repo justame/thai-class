@@ -16,6 +16,7 @@
   // How many words of each kind per lesson. One new word keeps a 60-90s episode focused.
   "newPerLesson": 1,
   "reviewsPerLesson": 1,
+  "directorPasses": 1,
   // A word needs ~10-12 spaced exposures to be learned. The audit flags words still under.
   "targetExposures": 10,
   // Review ladder (days). A word advances one rung each time it is taught.
