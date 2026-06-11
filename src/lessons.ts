@@ -117,6 +117,9 @@ SCREENPLAY FORMAT (always follow this exactly):
 Write the lesson as a screenplay — one spoken line per row, in the order it is heard.
 - Each row is "SPEAKER: text" or "SPEAKER (mood): text". SPEAKER is one of TEACHER,
   STUDENT1, STUDENT2. The (mood) is an optional delivery hint and is not spoken.
+- The SPEAKER label must be exactly TEACHER, STUDENT1, or STUDENT2 — never a character
+  name, never markdown — even though characters address each other by name inside the
+  spoken text.
 - Keep Thai in Thai script, inline in the line. Write the English parts in English.
   An English sentence stays on ONE row — do not chop it into fragments.
 - Audio cues are their own row written as "[CUE: name]" where name is one of:
@@ -125,6 +128,7 @@ Write the lesson as a screenplay — one spoken line per row, in the order it is
   (seconds), e.g. a recall question "How do you say ...? [wait 5s]". Use a long wait
   (5-6s) when the listener must produce a full phrase, ~2s right after a Thai word to
   repeat. Do not add [wait] to ordinary lines.
+- "[wait Ns]" belongs at the END of a row.
 - No JSON. No stage directions other than the (mood) tag and [CUE:]/[wait] markers.`;
 }
 

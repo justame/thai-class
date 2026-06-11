@@ -35,8 +35,9 @@ start, and speakers address each other by name. (Speaker IDs in the script stay
   "ใกล้แล้ว ลองอีกที", and a little personality ("ครูก็ชอบไปตลาดเหมือนกันค่ะ"). Tell the
   learner exactly what was good.
 - "student1" — Mike (ไมค์ in Thai lines), MALE American beginner. Male speech: ครับ, ผม. He should sound like he is
-  genuinely TRYING: hesitate with filler sounds and thinking pauses before answering — e.g. a
-  short line "เอ่อ…" or "อืม… let me think" ending the row with a long [wait 2s], THEN his attempt.
+  genuinely TRYING: hesitate with filler sounds and thinking pauses before answering. Write the
+  thinking sound as its OWN row that ends with "[wait 2s]" — e.g. a row "เอ่อ… [wait 2s]" or
+  "อืม… let me think [wait 2s]" — then his attempt as the NEXT row.
   He makes ONE realistic mistake and does NOT self-correct — the teacher corrects him.
   Mistakes from: missing preposition/particle, literal English-to-Thai, wrong word order.
   Never nonsense.
@@ -48,9 +49,9 @@ Wrong-gender particles (a man saying ค่ะ) are a serious error — never do
 ## Sound like real people, not a script
 
 - Thinking sounds are not only Mike's: anyone may briefly think before speaking. The American
-  students think in ENGLISH — "Hmmm…", "Hmm… let me think…", "Okay, let's see…" — as their own
-  row ending with a long [wait 2s], THEN the Thai attempt as a separate row. The Thai teacher
-  may use Thai fillers ("อืม…", "เอ่อ…").
+  students think in ENGLISH — "Hmmm…", "Hmm… let me think…", "Okay, let's see…". Write the
+  thinking sound as its OWN row that ends with "[wait 2s]", then the Thai attempt as the NEXT
+  row. The Thai teacher may use Thai fillers ("อืม…", "เอ่อ…").
 - Vary pause lengths between turns; identical pauses everywhere sounds robotic.
 - Students answer with polite particles (ครับ / ค่ะ) where a Thai speaker naturally would.
 

@@ -26,7 +26,9 @@ const SPEAKER_BY_LABEL: Record<string, Speaker> = {
 
 const CUE_ROW = /^\[CUE:\s*(\w+)\s*\]$/i;
 const PERSON_ROW = /^(\w+)\s*(?:\([^)]*\))?\s*:\s*(.*)$/;
-const WAIT_HINT = /\s*\[wait\s+(\d+(?:\.\d+)?)s?\]\s*$/i;
+const WAIT_TOKEN = /\[wait\s+(\d+(?:\.\d+)?)s?\]/gi;
+
+const DROPPED_SCREENPLAY_PREFIX_CHARS = 200;
 
 function clampPause(seconds: number): number {
   return Math.min(MAX_PAUSE_SECONDS, Math.max(MIN_PAUSE_SECONDS, seconds));
@@ -36,13 +38,22 @@ function isSkippable(line: string): boolean {
   return line === '' || line === '---' || line.startsWith('<!--') || line.startsWith('##');
 }
 
-// Pull a trailing "[wait Ns]" off the text. Returns the cleaned text and the wait (or null).
+// Drop leading blockquote/list markers and bold/underline emphasis so a markdown-decorated
+// row (e.g. "**TEACHER:**" or "> STUDENT1:") matches the plain speaker grammar.
+function stripMarkdown(line: string): string {
+  return line.replace(/^[>\s]*/, '').replace(/\*\*/g, '').replace(/__/g, '');
+}
+
+// Pull every "[wait Ns]" token out of the text (anywhere it appears) so none is voiced.
+// The pause for the row is the LAST finite wait value found, or null if none.
 function takeWait(text: string): { text: string; wait: number | null } {
-  const m = text.match(WAIT_HINT);
-  if (!m) return { text: text.trim(), wait: null };
-  const wait = Number(m[1]);
-  if (!Number.isFinite(wait)) return { text: text.trim(), wait: null };
-  return { text: text.replace(WAIT_HINT, '').trim(), wait };
+  let wait: number | null = null;
+  const stripped = text.replace(WAIT_TOKEN, (_match, n) => {
+    const value = Number(n);
+    if (Number.isFinite(value)) wait = value;
+    return ' ';
+  }).replace(/\s+/g, ' ').trim();
+  return { text: stripped, wait };
 }
 
 function cueChunk(name: string): Chunk {
@@ -68,8 +79,9 @@ function personChunks(speaker: Speaker, rawText: string): Chunk[] {
 
 export function parseScene(screenplay: string): Chunk[] {
   const chunks: Chunk[] = [];
+  const dropped: string[] = [];
   for (const raw of screenplay.split('\n')) {
-    const line = raw.trim();
+    const line = stripMarkdown(raw.trim());
     if (isSkippable(line)) continue;
 
     const cue = line.match(CUE_ROW);
@@ -81,9 +93,18 @@ export function parseScene(screenplay: string): Chunk[] {
     const person = line.match(PERSON_ROW);
     if (!person) continue; // narration / unknown row: not speakable, skip
     const speaker = SPEAKER_BY_LABEL[person[1].toUpperCase()];
-    if (!speaker) continue; // a word with a colon that is not a speaker label
+    if (!speaker) {
+      dropped.push(line); // a labelled row whose label is not a known speaker
+      continue;
+    }
     chunks.push(...personChunks(speaker, person[2]));
   }
-  if (chunks.length === 0) throw new Error('Screenplay produced no chunks');
+  if (dropped.length) {
+    console.warn(`format-scene: dropped ${dropped.length} unrecognized row(s): ${dropped.join(' | ')}`);
+  }
+  if (chunks.length === 0) {
+    const prefix = screenplay.slice(0, DROPPED_SCREENPLAY_PREFIX_CHARS);
+    throw new Error(`Screenplay produced no chunks. Screenplay starts: ${prefix}`);
+  }
   return chunks;
 }

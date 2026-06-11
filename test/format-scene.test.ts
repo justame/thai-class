@@ -1,4 +1,4 @@
-import { describe, it, expect } from 'vitest';
+import { describe, it, expect, vi } from 'vitest';
 import { parseScene } from '../src/format-scene.js';
 
 describe('parseScene', () => {
@@ -63,5 +63,39 @@ describe('parseScene', () => {
     const chunks = parseScene('TEACHER: Hi there. [wait .]');
     const last = chunks[chunks.length - 1].pauseAfter;
     expect(Number.isFinite(last)).toBe(true);
+  });
+
+  it('accepts a markdown-bold speaker label', () => {
+    const [c] = parseScene('**TEACHER:** Hello.');
+    expect(c.speaker).toBe('teacher');
+    expect(c.text).toBe('Hello.');
+  });
+
+  it('accepts a blockquoted speaker row', () => {
+    const [c] = parseScene('> STUDENT1: ครับ');
+    expect(c.speaker).toBe('student1');
+  });
+
+  it('warns (does not silently drop) a row whose label is not a known speaker', () => {
+    const warn = vi.spyOn(console, 'warn').mockImplementation(() => {});
+    parseScene('TEACHER: Hi.\nMike: I think it is ไป.');
+    expect(warn).toHaveBeenCalled();
+    warn.mockRestore();
+  });
+
+  it('strips a mid-line wait token from the spoken text', () => {
+    const chunks = parseScene('TEACHER: Repeat after me [wait 2s] then continue.');
+    const joined = chunks.map((c) => c.text).join(' ');
+    expect(joined).not.toContain('[wait');
+  });
+
+  it('uses a mid-line wait as the row pause', () => {
+    const chunks = parseScene('TEACHER: Repeat [wait 3s] now.');
+    expect(chunks[chunks.length - 1].pauseAfter).toBe(3);
+  });
+
+  it('never leaves a wait token anywhere in chunk text (invariant)', () => {
+    const chunks = parseScene('TEACHER: A [wait 2s] B [wait 5s] C. [wait 4s]');
+    for (const c of chunks) expect(c.text).not.toMatch(/\[wait/i);
   });
 });
