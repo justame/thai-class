@@ -1,0 +1,41 @@
+{
+  // Daily Thai settings. Edit any value and re-run `npm run text` / `npm run audio`.
+  // Delete a line to fall back to the built-in default. Secrets (API keys) stay in .env.
+
+  // --- Speed & pauses ---
+  // Speaking speed. 1.0 = normal, lower = slower. Both are slowed for beginners.
+  "thaiSpeakingRate": 0.78,
+  "englishSpeakingRate": 0.92,
+  // Default silence after each line (seconds). A line can ask for a longer pause; it is
+  // clamped to the min/max below.
+  "defaultPauseSeconds": 0.9,
+  "minPauseSeconds": 0.2,
+  "maxPauseSeconds": 6.0,
+
+  // --- Lesson size & spaced repetition ---
+  // How many words of each kind per lesson. One new word keeps a 60-90s episode focused.
+  "newPerLesson": 1,
+  "reviewsPerLesson": 1,
+  // A word needs ~10-12 spaced exposures to be learned. The audit flags words still under.
+  "targetExposures": 10,
+  // Review ladder (days). A word advances one rung each time it is taught.
+  "intervalsDays": [1, 3, 7, 14, 30],
+
+  // --- Voices & provider ---
+  // "google" (native Thai voices, free) or "elevenlabs". Env TTS_PROVIDER overrides this.
+  "ttsProvider": "google",
+  // Generation/review model. Env OPENAI_MODEL overrides this.
+  "openaiModel": "gpt-5.5",
+  // Chirp3-HD voice name per speaker (same voice across Thai and English).
+  "speakerVoices": {
+    "teacher": "Achernar",
+    "student1": "Charon",
+    "student2": "Kore"
+  },
+
+  // --- Audio length guards (seconds) ---
+  // Soft bounds. Outside the range we warn but still publish.
+  "minSeconds": 30,
+  "maxSeconds": 300,
+  "mp3SampleRateHz": 24000
+}
