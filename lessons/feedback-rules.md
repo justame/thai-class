@@ -13,4 +13,8 @@ HOW THIS WORKS
 - Delete a rule if it stops being true.
 -->
 
-<!-- No rules yet. They get added here as feedback comes in. -->
+- Teacher praise must VARY and come in Thai first (เก่งมาก / เยี่ยมเลย / ใกล้แล้ว) then English — never reuse the same praise word twice in one lesson.
+- Give the teacher at least one short human aside per lesson (a small joke or a personal note), not only instructions.
+- Students hesitate in their OWN words ("oh wait...", "is it...?"), never the canned "Hmm, let me think".
+- Vary sentence length and rhythm; do not write every line the same length.
+- Cut dead filler lines — every line either teaches, reacts, or moves the scene.
