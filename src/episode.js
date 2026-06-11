@@ -26,3 +26,13 @@ export function buildDescription(reviews, news) {
 export function nextEpisodeNumber(lastEpisodeNumber) {
   return (lastEpisodeNumber ?? 0) + 1;
 }
+
+// CLI scripts take an optional episode number arg; without it, target the next episode.
+export function getEpisodeNumber(arg, lastEpisodeNumber) {
+  if (arg === undefined) return nextEpisodeNumber(lastEpisodeNumber);
+  const number = Number(arg);
+  if (!Number.isInteger(number) || number < 1) {
+    throw new Error(`"${arg}" is not a valid episode number`);
+  }
+  return number;
+}

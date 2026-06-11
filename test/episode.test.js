@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { buildTitle, buildDescription, nextEpisodeNumber } from '../src/episode.js';
+import { buildTitle, buildDescription, nextEpisodeNumber, getEpisodeNumber } from '../src/episode.js';
 
 const market = { thai: 'ตลาด', english: 'market' };
 const eat = { thai: 'กิน', english: 'eat' };
@@ -32,5 +32,19 @@ describe('nextEpisodeNumber', () => {
 
   it('should increment the last number', () => {
     expect(nextEpisodeNumber(41)).toBe(42);
+  });
+});
+
+describe('getEpisodeNumber', () => {
+  it('should return the parsed arg when an episode number is given', () => {
+    expect(getEpisodeNumber('2', 5)).toBe(2);
+  });
+
+  it('should return the next episode number when no arg is given', () => {
+    expect(getEpisodeNumber(undefined, 5)).toBe(6);
+  });
+
+  it('should throw when the arg is not a positive whole number', () => {
+    expect(() => getEpisodeNumber('abc', 5)).toThrow('not a valid episode number');
   });
 });

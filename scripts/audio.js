@@ -1,16 +1,18 @@
 import 'dotenv/config';
 import { loadEpisodes, lastEpisodeNumber } from '../src/episodes.js';
-import { nextEpisodeNumber } from '../src/episode.js';
+import { getEpisodeNumber } from '../src/episode.js';
 import { hasTranscript, readTranscriptChunks, transcriptPath } from '../src/transcript.js';
 import { makeAudio } from '../src/tts.js';
 
-// Voice the saved (and possibly edited) transcript for the next episode — no regeneration.
-// Run: npm run audio   (after npm run text). Makes build/lesson.mp3 so you can hear it.
+// Voice the saved (and possibly edited) transcript — no regeneration.
+// Run: npm run audio          (next episode, after npm run text)
+//      npm run audio -- 2     (a specific episode, e.g. to re-voice an edited transcript)
+// Makes build/lesson.mp3 so you can hear it.
 
 async function main() {
   if (!process.env.GOOGLE_APPLICATION_CREDENTIALS) throw new Error('Set GOOGLE_APPLICATION_CREDENTIALS in .env');
 
-  const number = nextEpisodeNumber(lastEpisodeNumber(await loadEpisodes()));
+  const number = getEpisodeNumber(process.argv[2], lastEpisodeNumber(await loadEpisodes()));
   if (!hasTranscript(number)) {
     throw new Error(`No transcript for episode #${number}. Run "npm run text" first.`);
   }
