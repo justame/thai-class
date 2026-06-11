@@ -4,14 +4,16 @@
   "description": "Daily Thai learning podcast generator, auto-published to Spotify via RSS",
   "type": "module",
   "scripts": {
-    "seed": "node scripts/seed.js",
-    "tag": "node scripts/tag-obvious.js",
-    "audit": "node scripts/audit.js",
-    "text": "node scripts/text.js",
-    "audio": "node scripts/audio.js",
-    "smoke": "node scripts/smoke.js",
-    "start": "node src/run.js",
-    "cover": "node src/cover.js",
+    "build": "tsc",
+    "typecheck": "tsc -p tsconfig.test.json",
+    "seed": "tsc && node dist/scripts/seed.js",
+    "tag": "tsc && node dist/scripts/tag-obvious.js",
+    "audit": "tsc && node dist/scripts/audit.js",
+    "text": "tsc && node dist/scripts/text.js",
+    "audio": "tsc && node dist/scripts/audio.js",
+    "smoke": "tsc && node dist/scripts/smoke.js",
+    "start": "tsc && node dist/src/run.js",
+    "cover": "tsc && node dist/src/cover.js",
     "test": "vitest run"
   },
   "dependencies": {
@@ -24,6 +26,9 @@
     "sharp": "^0.33.0"
   },
   "devDependencies": {
+    "@types/node": "^25.9.3",
+    "@types/podcast": "^1.3.5",
+    "typescript": "^6.0.3",
     "vitest": "^2.1.9"
   }
 }
