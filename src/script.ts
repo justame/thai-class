@@ -11,6 +11,12 @@ import type { Chunk, Word } from './types.js';
 // "cue" is not a person — it marks a short audio cue (text holds the cue name).
 const SPEAKERS = ['teacher', 'student1', 'student2', 'cue'];
 
+// Seconds elapsed since a start time, for the stage timing logs below. The three LLM
+// stages run in series, so these numbers show exactly where generation spends its time.
+function secondsSince(startMs: number): string {
+  return `${((Date.now() - startMs) / 1000).toFixed(1)}s`;
+}
+
 // Guard against an empty or malformed result.
 function checkChunks(chunks: Chunk[]): Chunk[] {
   if (!Array.isArray(chunks) || chunks.length === 0) {
@@ -36,11 +42,19 @@ export async function generateScript(
   reviewWords: Word[],
   { apiKey, lessonType = 'micro', verify = true }: GenerateScriptOptions = {},
 ): Promise<Chunk[]> {
+  const totalStart = Date.now();
   const prompt = await buildLessonPrompt(lessonType, newWords, reviewWords);
+
+  let stageStart = Date.now();
   let scene = await writeScene(prompt, { apiKey });
+  console.log(`[timing] writer: ${secondsSince(stageStart)}`);
+
+  stageStart = Date.now();
   for (let i = 0; i < DIRECTOR_PASSES; i += 1) {
     scene = await directScene(scene, { apiKey });
   }
+  console.log(`[timing] director (${DIRECTOR_PASSES} pass): ${secondsSince(stageStart)}`);
+
   const chunks = checkChunks(parseScene(scene));
 
   // Gender particles (ครับ/ค่ะ/คะ) are NOT fixed by a deterministic rule: whether a line
@@ -49,9 +63,14 @@ export async function generateScript(
   // OPPOSITE (ep-5: "male = ค่ะ"). Particle correctness is left to the model and verified
   // by reviewThai, which has the surrounding English context to judge it.
   if (!verify) return checkNoMixedScript(splitMixedScriptLines(chunks));
+
+  stageStart = Date.now();
   const { chunks: reviewed, issues } = await reviewThai(chunks, { apiKey });
+  console.log(`[timing] reviewThai: ${secondsSince(stageStart)}`);
   if (issues.length) console.log(`Thai review fixed: ${issues.join('; ')}`);
+
   const clean = splitMixedScriptLines(checkChunks(reviewed));
+  console.log(`[timing] generateScript total: ${secondsSince(totalStart)}`);
   return checkNoMixedScript(clean);
 }
 

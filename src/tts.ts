@@ -23,6 +23,12 @@ import type { Chunk, SynthesizedAudio } from './types.js';
 const MP3_BITRATE = '128k';
 const SAMPLE_RATE = 24000;
 
+// Seconds since a start time, for the audio timing logs. Chunks are synthesized in series,
+// so the synth log shows whether TTS (not stitching) is where audio time goes.
+function secondsSince(startMs: number): string {
+  return `${((Date.now() - startMs) / 1000).toFixed(1)}s`;
+}
+
 interface Provider {
   synthesizeChunk: (chunk: Chunk) => Promise<SynthesizedAudio>;
 }
@@ -136,6 +142,7 @@ export async function makeAudio(chunks: Chunk[], { outPath }: MakeAudioOptions =
   const segmentPaths: string[] = [];
   const pauses: number[] = [];
   const ttsState: TtsState = { primaryDead: false };
+  const synthStart = Date.now();
   for (let i = 0; i < chunks.length; i += 1) {
     const chunk = chunks[i];
     // A cue is a pre-made sound file, not synthesized speech.
@@ -156,7 +163,11 @@ export async function makeAudio(chunks: Chunk[], { outPath }: MakeAudioOptions =
     pauses.push(pauseFor(chunk));
   }
 
+  console.log(`[timing] TTS synth (${chunks.length} chunks): ${secondsSince(synthStart)}`);
+
+  const stitchStart = Date.now();
   await stitchToMp3(segmentPaths, pauses, mp3Path);
+  console.log(`[timing] stitch + encode: ${secondsSince(stitchStart)}`);
   const durationSeconds = await getDurationSeconds(mp3Path);
   // Only remove generated segments under build/ — never the shared cue assets.
   await Promise.all(
