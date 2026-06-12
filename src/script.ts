@@ -45,15 +45,17 @@ export async function generateScript(
   const totalStart = Date.now();
   const prompt = await buildLessonPrompt(lessonType, newWords, reviewWords);
 
+  console.log('[timing] writer: started...');
   let stageStart = Date.now();
   let scene = await writeScene(prompt, { apiKey });
-  console.log(`[timing] writer: ${secondsSince(stageStart)}`);
+  console.log(`[timing] writer: done in ${secondsSince(stageStart)}`);
 
+  console.log(`[timing] director (${DIRECTOR_PASSES} pass): started...`);
   stageStart = Date.now();
   for (let i = 0; i < DIRECTOR_PASSES; i += 1) {
     scene = await directScene(scene, { apiKey });
   }
-  console.log(`[timing] director (${DIRECTOR_PASSES} pass): ${secondsSince(stageStart)}`);
+  console.log(`[timing] director (${DIRECTOR_PASSES} pass): done in ${secondsSince(stageStart)}`);
 
   const chunks = checkChunks(parseScene(scene));
 
@@ -64,9 +66,10 @@ export async function generateScript(
   // by reviewThai, which has the surrounding English context to judge it.
   if (!verify) return checkNoMixedScript(splitMixedScriptLines(chunks));
 
+  console.log('[timing] reviewThai: started...');
   stageStart = Date.now();
   const { chunks: reviewed, issues } = await reviewThai(chunks, { apiKey });
-  console.log(`[timing] reviewThai: ${secondsSince(stageStart)}`);
+  console.log(`[timing] reviewThai: done in ${secondsSince(stageStart)}`);
   if (issues.length) console.log(`Thai review fixed: ${issues.join('; ')}`);
 
   const clean = splitMixedScriptLines(checkChunks(reviewed));
