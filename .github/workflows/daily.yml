@@ -3,8 +3,8 @@ name: Daily Thai lesson
 # 09:00 Thailand (ICT, UTC+7) = 02:00 UTC. Cron is UTC-only and best-effort
 # (GitHub may delay it a few minutes); fine for a daily lesson.
 on:
-  schedule:
-    - cron: '0 2 * * *'
+  # schedule:
+  #   - cron: '0 2 * * *'
   workflow_dispatch: {}
 
 # Needed to create Releases (audio) and push the committed state back.
