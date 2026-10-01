@@ -1,0 +1,21 @@
+name: Publish ready lesson
+on:
+  push:
+    paths:
+      - data/publication-request.json
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: daily-thai
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate and publish uploaded audio
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/publish_ready.py --mode release
