@@ -16,5 +16,14 @@
     "audioUrl": "https://github.com/justame/thai-class/releases/download/ep-2/daily-thai-2.mp3",
     "durationSeconds": 83.21000000000001,
     "fileSizeBytes": 1331756
+  },
+  {
+    "number": 5,
+    "title": "Daily Thai #5 — 20 משפטים יומיומיים",
+    "description": "תרגול האזנה ל־20 משפטים יומיומיים בתאית.\n\nבכל משפט: התרגום בעברית פעם אחת, Google בקול נשי פעמיים, ואז Thonburian בקול גברי פעמיים.\n\nמהירות התאית: 0.95×. הפסקה של 1.5 שניות בין ההקראות ושל 3 שניות בין המשפטים. משך הפרק: 17:21.\n\nקול נשי: Google Translate.\nקול גברי: [Thonburian TTS](https://github.com/biodatlab/thonburian-tts), עם קול הייחוס שסופק בפרויקט.",
+    "pubDate": "2026-10-01",
+    "durationSeconds": 1041.031837,
+    "fileSizeBytes": 16657062,
+    "audioUrl": "https://github.com/justame/thai-class/releases/download/ep-5/daily-thai-5.mp3"
   }
 ]
